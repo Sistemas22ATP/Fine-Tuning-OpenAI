@@ -17,9 +17,9 @@ async function TransformData() {
     addQuestionAnswer("¿Cuál es el grosor del vinil?", extractValue(productInfo, "Grosor"));
     addQuestionAnswer("¿Qué tipo de adhesivo se utiliza?", extractValue(productInfo, "Tipo de dhesivo"));
     addQuestionAnswer("¿Cuál es la durabilidad del vinil?", extractValue(productInfo, "Durabilidad"));
-    addQuestionAnswer("¿Qué acabados están disponibles?", extractValue(productInfo, "Acabados"));
+    addQuestionAnswer("¿Qué acabados están disponibles?", extractValue(productInfo, "Acabado"));
     addQuestionAnswer("¿Cuáles son las medidas disponibles?", extractValue(productInfo, "Medidas"));
-    addQuestionAnswer("¿Qué colores están disponibles?", extractValue(productInfo, "Colores"));
+    addQuestionAnswer("¿Qué colores están disponibles?", extractValue(productInfo, "Color"));
     addQuestionAnswer("¿Cómo se debe almacenar el vinil?", extractValue(productInfo, "Cómo se debe almacenar"));
     addQuestionAnswer("¿Cuál es la vida en anaquel del vinil?", extractValue(productInfo, "Vida en anaquel"));
     addQuestionAnswer("¿Para qué aplicaciones es adecuado este vinil?", extractValue(productInfo, "Aplicaciones del vinil"));
