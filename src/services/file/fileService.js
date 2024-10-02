@@ -8,6 +8,8 @@ async function TransformData() {
     
     const productInfo = pdfData.text;
 
+    console.log(productInfo)
+
     const qaPairs = [];
 
     const addQuestionAnswer = (question, answer) => {
