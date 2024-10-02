@@ -23,8 +23,8 @@ async function TransformData() {
     addQuestionAnswer("¿Cómo se debe almacenar el vinil?", extractValue(productInfo, "Almacenamiento"));
     addQuestionAnswer("¿Cuál es la vida en anaquel del vinil?", extractValue(productInfo, "Vida en anaquel"));
     addQuestionAnswer("¿Para qué aplicaciones es adecuado este vinil?", extractValue(productInfo, "Aplicaciones"));
-    addQuestionAnswer("¿Qué precauciones se deben tomar al aplicar el vinil?", extractValue(productInfo, "Precauciones al aplicar"));
-    addQuestionAnswer("¿Cuáles son las propiedades de resistencia del vinil?", extractValue(productInfo, "Propiedades de resistencia"));
+    addQuestionAnswer("¿Qué precauciones se deben tomar al aplicar el vinil?", extractValue(productInfo, "Manejo"));
+    addQuestionAnswer("¿Cuáles son las propiedades de resistencia del vinil?", extractValue(productInfo, "Propiedades"));
 
     for (const item of qaPairs) {
         const object = `{"prompt": "${item.question} ->", "completion": "${item.answer} END"}`;
