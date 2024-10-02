@@ -22,11 +22,11 @@ async function TransformData() {
     addQuestionAnswer("¿Qué acabados están disponibles?", extractValue(productInfo, "Acabado"));
     addQuestionAnswer("¿Cuáles son las medidas disponibles?", extractValue(productInfo, "Medidas"));
     addQuestionAnswer("¿Qué colores están disponibles?", extractValue(productInfo, "Color"));
-    addQuestionAnswer("¿Cómo se debe almacenar el vinil?", extractValue(productInfo, "Almacenamiento"));
+    addQuestionAnswer("¿Cómo se debe almacenar el vinil?", extractValue(productInfo, "ALMACENAMIENTO."));
     addQuestionAnswer("¿Cuál es la vida en anaquel del vinil?", extractValue(productInfo, "Vida en anaquel"));
-    addQuestionAnswer("¿Para qué aplicaciones es adecuado este vinil?", extractValue(productInfo, "Aplicaciones"));
-    addQuestionAnswer("¿Qué precauciones se deben tomar al aplicar el vinil?", extractValue(productInfo, "Manejo"));
-    addQuestionAnswer("¿Cuáles son las propiedades de resistencia del vinil?", extractValue(productInfo, "Propiedades"));
+    addQuestionAnswer("¿Para qué aplicaciones es adecuado este vinil?", extractValue(productInfo, "APLICACIONES"));
+    addQuestionAnswer("¿Qué precauciones se deben tomar al aplicar el vinil?", extractValue(productInfo, "MANEJO."));
+    addQuestionAnswer("¿Cuáles son las propiedades de resistencia del vinil?", extractValue(productInfo, "PROPIEDADES."));
 
     for (const item of qaPairs) {
         const object = `{"prompt": "${item.question} ->", "completion": "${item.answer} END"}`;
