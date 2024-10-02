@@ -15,16 +15,16 @@ async function TransformData() {
     };
 
     addQuestionAnswer("¿Cuál es el grosor del vinil?", extractValue(productInfo, "Grosor"));
-    addQuestionAnswer("¿Qué tipo de adhesivo se utiliza?", extractValue(productInfo, "Adhesivo"));
+    addQuestionAnswer("¿Qué tipo de adhesivo se utiliza?", extractValue(productInfo));
     addQuestionAnswer("¿Cuál es la durabilidad del vinil?", extractValue(productInfo, "Durabilidad"));
-    addQuestionAnswer("¿Qué acabados están disponibles?", extractValue(productInfo, "Acabado"));
+    addQuestionAnswer("¿Qué acabados están disponibles?", extractValue(productInfo));
     addQuestionAnswer("¿Cuáles son las medidas disponibles?", extractValue(productInfo, "Medidas"));
-    addQuestionAnswer("¿Qué colores están disponibles?", extractValue(productInfo, "Color"));
-    addQuestionAnswer("¿Cómo se debe almacenar el vinil?", extractValue(productInfo, "Almacenamiento"));
+    addQuestionAnswer("¿Qué colores están disponibles?", extractValue(productInfo));
+    addQuestionAnswer("¿Cómo se debe almacenar el vinil?", extractValue(productInfo));
     addQuestionAnswer("¿Cuál es la vida en anaquel del vinil?", extractValue(productInfo, "Vida en anaquel"));
-    addQuestionAnswer("¿Para qué aplicaciones es adecuado este vinil?", extractValue(productInfo, "Aplicaciones"));
-    addQuestionAnswer("¿Qué precauciones se deben tomar al aplicar el vinil?", extractValue(productInfo, "Manejo"));
-    addQuestionAnswer("¿Cuáles son las propiedades de resistencia del vinil?", extractValue(productInfo, "Propiedades"));
+    addQuestionAnswer("¿Para qué aplicaciones es adecuado este vinil?", extractValue(productInfo));
+    addQuestionAnswer("¿Qué precauciones se deben tomar al aplicar el vinil?", extractValue(productInfo));
+    addQuestionAnswer("¿Cuáles son las propiedades de resistencia del vinil?", extractValue(productInfo));
 
     for (const item of qaPairs) {
         const object = `{"prompt": "${item.question} ->", "completion": "${item.answer} END"}`;
