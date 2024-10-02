@@ -15,16 +15,16 @@ async function TransformData() {
     };
 
     addQuestionAnswer("¿Cuál es el grosor del vinil?", extractValue(productInfo, "Grosor"));
-    addQuestionAnswer("¿Qué tipo de adhesivo se utiliza?", "Adhesivo permanente, poliacrilato base solvente, transparente y sensible a la presión.");
+    addQuestionAnswer("¿Qué tipo de adhesivo se utiliza?", extractValue(productInfo, "Tipo de dhesivo"));
     addQuestionAnswer("¿Cuál es la durabilidad del vinil?", extractValue(productInfo, "Durabilidad"));
-    addQuestionAnswer("¿Qué acabados están disponibles?", "El acabado es de brillo reducido.");
+    addQuestionAnswer("¿Qué acabados están disponibles?", extractValue(productInfo, "Acabados"));
     addQuestionAnswer("¿Cuáles son las medidas disponibles?", extractValue(productInfo, "Medidas"));
-    addQuestionAnswer("¿Qué colores están disponibles?", "Colores disponibles: menta, azul claro, rosa suave y dorado.");
-    addQuestionAnswer("¿Cómo se debe almacenar el vinil?", "El vinil se debe almacenar en un lugar fresco y seco, protegido de la luz solar.");
-    addQuestionAnswer("¿Cuál es la vida en anaquel del vinil?", "La vida en anaquel es de 2 años.");
-    addQuestionAnswer("¿Para qué aplicaciones es adecuado este vinil?", "Es excelente para decorado de ventanas, puertas de vidrio, publicidad y diseños decorativos.");
-    addQuestionAnswer("¿Qué precauciones se deben tomar al aplicar el vinil?", "No aplicar a temperaturas menores a 8°C y asegurarse de que la superficie esté limpia.");
-    addQuestionAnswer("¿Cuáles son las propiedades de resistencia del vinil?", "Resistencia a temperaturas de -40°C a +90°C sin variaciones.");
+    addQuestionAnswer("¿Qué colores están disponibles?", extractValue(productInfo, "Colores"));
+    addQuestionAnswer("¿Cómo se debe almacenar el vinil?", extractValue(productInfo, "Cómo se debe almacenar"));
+    addQuestionAnswer("¿Cuál es la vida en anaquel del vinil?", extractValue(productInfo, "Vida en anaquel"));
+    addQuestionAnswer("¿Para qué aplicaciones es adecuado este vinil?", extractValue(productInfo, "Aplicaciones del vinil"));
+    addQuestionAnswer("¿Qué precauciones se deben tomar al aplicar el vinil?", extractValue(productInfo, "Precauciones al aplicar"));
+    addQuestionAnswer("¿Cuáles son las propiedades de resistencia del vinil?", extractValue(productInfo, "Propiedades de resistencia"));
 
     for (const item of qaPairs) {
         const object = `{"prompt": "${item.question} ->", "completion": "${item.answer} END"}`;
