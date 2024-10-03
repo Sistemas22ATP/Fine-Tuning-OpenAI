@@ -8,7 +8,7 @@ async function TransformData() {
     
     const productInfo = pdfData.text;
 
-    console.log(productInfo)
+    console.log(productInfo); 
 
     const qaPairs = [];
 
@@ -95,4 +95,4 @@ module.exports = {
     ListFiles,
     RetrieveFile,
     DeleteFile
-}
+} 
