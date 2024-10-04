@@ -15,7 +15,7 @@ async function TransformData() {
     console.log(productInfo);
 
     const qaPairs = [
-        "¿Cuál es el objetivo principal del Desarrollador de Power BI según el documento",
+        "¿Cuál es el objetivo principal del Desarrollador de Power BI según el documento?",
         "Describe el alcance de las actividades que se espera que realice el Desarrollador de Power BI.",
         "¿Qué significa BI en el contexto de este documento?",
         "Explica brevemente qué es Dynamics 365 F&O y su función en la gestión empresarial.",
