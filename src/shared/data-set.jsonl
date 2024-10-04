@@ -1,22 +1,88 @@
-{"prompt": "¿Cuál es el objetivo principal del Desarrollador de Power BI según el documento? ->", "completion": "............................................................................................................................... 3 END"}
-{"prompt": "Describe el alcance de las actividades que se espera que realice el Desarrollador de Power BI. ->", "completion": "................................................................................................................................ 3 END"}
-{"prompt": "¿Qué significa BI en el contexto de este documento? ->", "completion": "PU.TI.005   [16/02/2024] fecha de última END"}
+{"prompt": "¿Cuál es el objetivo principal del Desarrollador de Power BI según el documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "Describe el alcance de las actividades que se espera que realice el Desarrollador de Power BI. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué significa BI en el contexto de este documento? ->", "completion": "Información no disponible. END"}
 {"prompt": "Explica brevemente qué es Dynamics 365 F&O y su función en la gestión empresarial. ->", "completion": "Información no disponible. END"}
 {"prompt": "¿Cuál es la función de Jira como sistema de tickets dentro del área de TI? ->", "completion": "Información no disponible. END"}
 {"prompt": "Define el concepto de Tecnologías de Información (TI) y su importancia en las empresas. ->", "completion": "Información no disponible. END"}
-{"prompt": "¿Qué es un ticket y en qué situaciones se utiliza en la gestión de TI? ->", "completion": "s): Herramienta de gestión de proyectos y seguimiento de incidencias que facilita la colaboración END"}
-{"prompt": "¿Cómo se define SCRUM y cuáles son sus componentes clave en el desarrollo de software? ->", "completion": "Scrum  es  un  marco  de  trabajo  ágil  utilizado  en  el  desarrollo  de  software  y  otros  proyectos.  Se  basa  en  un  enfoque END"}
-{"prompt": "¿Qué implica la actividad de seguimiento de proyectos asignados para un Desarrollador de Power BI? ->", "completion": "Esta actividad consiste en hacer un seguimiento detallado de los proyectos asignados. Es necesario monitorear el progreso, END"}
-{"prompt": "¿Qué se espera lograr al monitorear el progreso de los proyectos asignados? ->", "completion": "Esta actividad consiste en hacer un seguimiento detallado de los proyectos asignados. Es necesario monitorear el progreso, END"}
-{"prompt": "Describe el proceso que se sigue durante el levantamiento de requerimientos en el desarrollo de software. ->", "completion": "Se  realiza  un  levantamiento  de  requerimientos  para  definir  detalladamente  la  solicitud  del  usuario  solicitante  acorde  al END"}
-{"prompt": "¿Cuál es la importancia de entender las necesidades del usuario antes de iniciar el desarrollo de una solución? ->", "completion": "para comprender los requisitos de informes y paneles. END"}
-{"prompt": "¿Cómo se relaciona el desarrollo de informes con las solicitudes generadas por los usuarios? ->", "completion": "Se desarrolla de acuerdo con la solicitud generada por el usuario explicado en el punto anterior END"}
-{"prompt": "¿Qué pasos se deben seguir para garantizar la entrega exitosa de los resultados esperados por el usuario solicitante? ->", "completion": "Esta actividad consiste en hacer un seguimiento detallado de los proyectos asignados. Es necesario monitorear el progreso, END"}
+{"prompt": "¿Qué es un ticket y en qué situaciones se utiliza en la gestión de TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se define SCRUM y cuáles son sus componentes clave en el desarrollo de software? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué implica la actividad de seguimiento de proyectos asignados para un Desarrollador de Power BI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué se espera lograr al monitorear el progreso de los proyectos asignados? ->", "completion": "Información no disponible. END"}
+{"prompt": "Describe el proceso que se sigue durante el levantamiento de requerimientos en el desarrollo de software. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es la importancia de entender las necesidades del usuario antes de iniciar el desarrollo de una solución? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se relaciona el desarrollo de informes con las solicitudes generadas por los usuarios? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué pasos se deben seguir para garantizar la entrega exitosa de los resultados esperados por el usuario solicitante? ->", "completion": "Información no disponible. END"}
 {"prompt": "¿Qué referencia se menciona para el desarrollo de software en el documento? ->", "completion": "Información no disponible. END"}
-{"prompt": "¿Qué actividades específicas se incluyen en el rol del Desarrollador de Power BI? ->", "completion": "para comprender los requisitos de informes y paneles. END"}
-{"prompt": "¿Por qué es importante la comunicación con los miembros del equipo en el seguimiento de proyectos? ->", "completion": "Esta actividad consiste en hacer un seguimiento detallado de los proyectos asignados. Es necesario monitorear el progreso, END"}
-{"prompt": "¿Cómo se pueden identificar y resolver problemas o desviaciones en el avance de un proyecto? ->", "completion": "Esta actividad consiste en hacer un seguimiento detallado de los proyectos asignados. Es necesario monitorear el progreso, END"}
-{"prompt": "¿Qué es un sprint en el contexto de SCRUM y cómo se relaciona con la entrega de valor? ->", "completion": "Scrum  es  un  marco  de  trabajo  ágil  utilizado  en  el  desarrollo  de  software  y  otros  proyectos.  Se  basa  en  un  enfoque END"}
-{"prompt": "¿Cómo contribuye el Desarrollador de Power BI al avance de la misión y visión empresarial? ->", "completion": "............................................................................................................................... 3 END"}
+{"prompt": "¿Qué actividades específicas se incluyen en el rol del Desarrollador de Power BI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Por qué es importante la comunicación con los miembros del equipo en el seguimiento de proyectos? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se pueden identificar y resolver problemas o desviaciones en el avance de un proyecto? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué es un sprint en el contexto de SCRUM y cómo se relaciona con la entrega de valor? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo contribuye el Desarrollador de Power BI al avance de la misión y visión empresarial? ->", "completion": "Información no disponible. END"}
 {"prompt": "¿Qué herramientas o recursos se pueden utilizar para el procesamiento y almacenamiento de información en TI? ->", "completion": "Información no disponible. END"}
-{"prompt": "¿Cuál es el papel de los usuarios clave en el seguimiento de proyectos asignados? ->", "completion": "Esta actividad consiste en hacer un seguimiento detallado de los proyectos asignados. Es necesario monitorear el progreso, END"}
+{"prompt": "¿Cuál es el papel de los usuarios clave en el seguimiento de proyectos asignados? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es el objetivo principal del Desarrollador de Power BI según el documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "Describe el alcance de las actividades que se espera que realice el Desarrollador de Power BI. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué significa BI en el contexto de este documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "Explica brevemente qué es Dynamics 365 F&O y su función en la gestión empresarial. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es la función de Jira como sistema de tickets dentro del área de TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "Define el concepto de Tecnologías de Información (TI) y su importancia en las empresas. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué es un ticket y en qué situaciones se utiliza en la gestión de TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se define SCRUM y cuáles son sus componentes clave en el desarrollo de software? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué implica la actividad de seguimiento de proyectos asignados para un Desarrollador de Power BI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué se espera lograr al monitorear el progreso de los proyectos asignados? ->", "completion": "Información no disponible. END"}
+{"prompt": "Describe el proceso que se sigue durante el levantamiento de requerimientos en el desarrollo de software. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es la importancia de entender las necesidades del usuario antes de iniciar el desarrollo de una solución? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se relaciona el desarrollo de informes con las solicitudes generadas por los usuarios? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué pasos se deben seguir para garantizar la entrega exitosa de los resultados esperados por el usuario solicitante? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué referencia se menciona para el desarrollo de software en el documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué actividades específicas se incluyen en el rol del Desarrollador de Power BI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Por qué es importante la comunicación con los miembros del equipo en el seguimiento de proyectos? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se pueden identificar y resolver problemas o desviaciones en el avance de un proyecto? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué es un sprint en el contexto de SCRUM y cómo se relaciona con la entrega de valor? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo contribuye el Desarrollador de Power BI al avance de la misión y visión empresarial? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué herramientas o recursos se pueden utilizar para el procesamiento y almacenamiento de información en TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es el papel de los usuarios clave en el seguimiento de proyectos asignados? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es el objetivo principal del Desarrollador de Power BI según el documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "Describe el alcance de las actividades que se espera que realice el Desarrollador de Power BI. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué significa BI en el contexto de este documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "Explica brevemente qué es Dynamics 365 F&O y su función en la gestión empresarial. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es la función de Jira como sistema de tickets dentro del área de TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "Define el concepto de Tecnologías de Información (TI) y su importancia en las empresas. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué es un ticket y en qué situaciones se utiliza en la gestión de TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se define SCRUM y cuáles son sus componentes clave en el desarrollo de software? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué implica la actividad de seguimiento de proyectos asignados para un Desarrollador de Power BI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué se espera lograr al monitorear el progreso de los proyectos asignados? ->", "completion": "Información no disponible. END"}
+{"prompt": "Describe el proceso que se sigue durante el levantamiento de requerimientos en el desarrollo de software. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es la importancia de entender las necesidades del usuario antes de iniciar el desarrollo de una solución? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se relaciona el desarrollo de informes con las solicitudes generadas por los usuarios? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué pasos se deben seguir para garantizar la entrega exitosa de los resultados esperados por el usuario solicitante? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué referencia se menciona para el desarrollo de software en el documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué actividades específicas se incluyen en el rol del Desarrollador de Power BI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Por qué es importante la comunicación con los miembros del equipo en el seguimiento de proyectos? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se pueden identificar y resolver problemas o desviaciones en el avance de un proyecto? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué es un sprint en el contexto de SCRUM y cómo se relaciona con la entrega de valor? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo contribuye el Desarrollador de Power BI al avance de la misión y visión empresarial? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué herramientas o recursos se pueden utilizar para el procesamiento y almacenamiento de información en TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es el papel de los usuarios clave en el seguimiento de proyectos asignados? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es el objetivo principal del Desarrollador de Power BI según el documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "Describe el alcance de las actividades que se espera que realice el Desarrollador de Power BI. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué significa BI en el contexto de este documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "Explica brevemente qué es Dynamics 365 F&O y su función en la gestión empresarial. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es la función de Jira como sistema de tickets dentro del área de TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "Define el concepto de Tecnologías de Información (TI) y su importancia en las empresas. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué es un ticket y en qué situaciones se utiliza en la gestión de TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se define SCRUM y cuáles son sus componentes clave en el desarrollo de software? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué implica la actividad de seguimiento de proyectos asignados para un Desarrollador de Power BI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué se espera lograr al monitorear el progreso de los proyectos asignados? ->", "completion": "Información no disponible. END"}
+{"prompt": "Describe el proceso que se sigue durante el levantamiento de requerimientos en el desarrollo de software. ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es la importancia de entender las necesidades del usuario antes de iniciar el desarrollo de una solución? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se relaciona el desarrollo de informes con las solicitudes generadas por los usuarios? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué pasos se deben seguir para garantizar la entrega exitosa de los resultados esperados por el usuario solicitante? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué referencia se menciona para el desarrollo de software en el documento? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué actividades específicas se incluyen en el rol del Desarrollador de Power BI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Por qué es importante la comunicación con los miembros del equipo en el seguimiento de proyectos? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo se pueden identificar y resolver problemas o desviaciones en el avance de un proyecto? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué es un sprint en el contexto de SCRUM y cómo se relaciona con la entrega de valor? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cómo contribuye el Desarrollador de Power BI al avance de la misión y visión empresarial? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Qué herramientas o recursos se pueden utilizar para el procesamiento y almacenamiento de información en TI? ->", "completion": "Información no disponible. END"}
+{"prompt": "¿Cuál es el papel de los usuarios clave en el seguimiento de proyectos asignados? ->", "completion": "Información no disponible. END"}
