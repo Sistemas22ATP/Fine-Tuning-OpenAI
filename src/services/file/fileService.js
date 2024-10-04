@@ -4,7 +4,7 @@ const { OpenAI } = require("openai");
 
 async function TransformData() {
     const openai = new OpenAI({
-        apiKey: "sk-RB4yfZYpnaZxx75-_ERoriYYm0BaUQRdndYcYG9N0-T3BlbkFJld_0D-SrMLuifCK_WPRJkSWGEQAONhbCAj_y9c9zYA",
+        apiKey: process.env.OPENAI_API_KEY,
     });
     
     const pdfBuffer = fs.readFileSync("src/shared/202403052204530809.pdf");
@@ -68,7 +68,7 @@ TransformData();
 
 async function UploadFile() {
     const openai = new OpenAI({
-        apiKey: "sk-RB4yfZYpnaZxx75-_ERoriYYm0BaUQRdndYcYG9N0-T3BlbkFJld_0D-SrMLuifCK_WPRJkSWGEQAONhbCAj_y9c9zYA",
+        apiKey: process.env.OPENAI_API_KEY,
     });
 
     const fileStream = fs.createReadStream("src/shared/data-set.jsonl");
@@ -82,7 +82,7 @@ async function UploadFile() {
 
 async function ListFiles() {
     const openai = new OpenAI({
-        apiKey: "sk-RB4yfZYpnaZxx75-_ERoriYYm0BaUQRdndYcYG9N0-T3BlbkFJld_0D-SrMLuifCK_WPRJkSWGEQAONhbCAj_y9c9zYA",
+        apiKey: process.env.OPENAI_API_KEY,
     });
 
     const response = await openai.files.list();
@@ -91,7 +91,7 @@ async function ListFiles() {
 
 async function RetrieveFile(fileId) {
     const openai = new OpenAI({
-        apiKey: "sk-RB4yfZYpnaZxx75-_ERoriYYm0BaUQRdndYcYG9N0-T3BlbkFJld_0D-SrMLuifCK_WPRJkSWGEQAONhbCAj_y9c9zYA",
+        apiKey: process.env.OPENAI_API_KEY,
     });
 
     try {
@@ -104,7 +104,7 @@ async function RetrieveFile(fileId) {
 
 async function DeleteFile(fileId) {
     const openai = new OpenAI({
-        apiKey: "sk-RB4yfZYpnaZxx75-_ERoriYYm0BaUQRdndYcYG9N0-T3BlbkFJld_0D-SrMLuifCK_WPRJkSWGEQAONhbCAj_y9c9zYA",
+        apiKey: process.env.OPENAI_API_KEY,
     });
 
     try {

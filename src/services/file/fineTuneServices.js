@@ -2,7 +2,7 @@ const { OpenAI } = require("openai");
 
 async function CreateFineTune(fileId){
     const openai = new OpenAI({
-        apiKey: "sk-RB4yfZYpnaZxx75-_ERoriYYm0BaUQRdndYcYG9N0-T3BlbkFJld_0D-SrMLuifCK_WPRJkSWGEQAONhbCAj_y9c9zYA",
+        apiKey: process.env.OPENAI_API_KEY,
     });
 
     try{
