@@ -1,0 +1,66 @@
+{"prompt": "¿Cuál es el objetivo principal del puesto de un Desarrollador Sr? ->", "completion": "El objetivo principal del puesto de un Desarrollador Sr es utilizar su amplia experiencia y conocimientos en el desarrollo de software para diseñar, implementar y mantener soluciones de software de alta calidad. Además, un Desarrollador Sr tiene como objetivos liderar y contribuir en proyectos desafiantes, brindar orientación y apoyo al equipo de desarrollo, y garantizar la entrega exitosa de productos y aplicaciones de software. END"}
+{"prompt": "Describe el alcance del documento en relación con el área de desarrollo de software. ->", "completion": "El alcance del documento está definido específicamente para el área de desarrollo de software y los usuarios clave involucrados en proyectos de desarrollo de software. Esto incluiría todas las actividades, procesos y responsabilidades asociadas con la creación, mantenimiento y actualización de software dentro de esta área, garantizando que los usuarios clave que tienen un impacto significativo o interés en los proyectos estén debidamente considerados y participen en las decisiones importantes. END"}
+{"prompt": "Define qué se entiende por usuario clave en el contexto del desarrollo de software. ->", "completion": "En el contexto del desarrollo de software, un "usuario clave" se refiere a una persona que tiene un interés significativo o un impacto relevante en un proyecto, producto o sistema. Son aquellos usuarios responsables de liderar el proyecto y cuyas opiniones deben ser consideradas en el diseño, desarrollo y evaluación de una solución. Además, el usuario clave es la persona encargada de tomar decisiones respecto a los cambios en el proyecto asignado. END"}
+{"prompt": "Explica qué es Scrum y cómo se aplica en el desarrollo de software. ->", "completion": "Scrum es un marco de trabajo ágil utilizado en el desarrollo de software y otros proyectos. Se basa en un enfoque colaborativo e iterativo, donde los equipos se organizan en ciclos de trabajo llamados "sprints". Durante cada sprint, que generalmente tienen una duración fija de unas pocas semanas, se realizan actividades de planificación, desarrollo, revisión y retrospectiva. El objetivo de Scrum es entregar incrementos de valor al final de cada iteración.
+
+En el desarrollo de software, Scrum facilita la adaptación a los cambios rápidamente y mejora la comunicación y colaboración dentro del equipo. Trabajar en sprints permite al equipo presentar resultados tangibles regularmente y recibir retroalimentación temprana para realizar ajustes necesarios. Esto ayuda a asegurar que el producto final cumpla con las necesidades del cliente y se ajuste a los cambios del mercado de manera oport END"}
+{"prompt": "¿Qué es un SLA y por qué es importante en el soporte técnico? ->", "completion": "Un SLA, o Acuerdo de Nivel de Servicio, es un acuerdo formalizado entre el equipo de soporte técnico y los colaboradores de una organización. Este acuerdo define los niveles de servicio esperados y los compromisos que el equipo de soporte técnico debe cumplir en términos de tiempo de respuesta, tiempo de resolución y calidad de atención al cliente en relación con los tickets solicitados.
+
+La importancia de un SLA en el soporte técnico radica en varios aspectos clave:
+
+1. **Expectativas claras**: Establece claramente las expectativas entre el proveedor de servicios y el usuario final respecto a los servicios ofrecidos.
+2. **Medición del rendimiento**: Proporciona métricas específicas que ayudan a medir la eficacia del soporte técnico.
+3. **Responsabilidad**: Obliga al equipo de soporte técnico a mantener un cierto nivel de rend END"}
+{"prompt": "Define qué se considera un ticket en el contexto del soporte técnico. ->", "completion": "En el contexto del soporte técnico, un ticket se define como un registro o solicitud formal que se crea en la plataforma de tickets gestionada por el departamento de Tecnologías de la Información (TI) cuando un empleado o cliente necesita asistencia o resolución de un problema relacionado con equipos de cómputo o sistemas de la empresa. END"}
+{"prompt": "¿Qué implica el deploy de producto final en el desarrollo de software? ->", "completion": "El "deploy de producto final" en el desarrollo de software se refiere al proceso de implementar o desplegar una aplicación o sistema de software en un entorno de producción o de uso real. Este proceso implica tomar el código fuente o los archivos binarios del software y configurarlos correctamente en el entorno objetivo, como servidores, redes o dispositivos, para que estén listos y funcionando correctamente. END"}
+{"prompt": "Enumera las actividades que un Desarrollador Sr realiza de manera diaria. ->", "completion": "Las actividades que un Desarrollador Sr realiza de manera diaria son:
+
+1. Seguimiento de correos.
+2. Seguimiento de tickets.
+3. Seguimiento de proyectos asignados.
+4. Monitoreo de servicios activos. END"}
+{"prompt": "Describe el proceso de seguimiento de tickets y su importancia en el soporte técnico. ->", "completion": "El proceso de seguimiento de tickets, según se detalla en el procedimiento para un Desarrollador de Software Sr, es una actividad diaria que implica dar seguimiento a los tickets de soporte o incidencias presentados por los usuarios de la organización. Este proceso es esencial para garantizar una gestión efectiva de los tickets, resolver problemas de manera oportuna y brindar un servicio de soporte de calidad que cumpla con los Acuerdos de Nivel de Servicio (SLA) establecidos por el departamento de TI.
+
+La importancia del seguimiento de tickets en el soporte técnico radica en varios aspectos clave:
+
+1. **Resolución Oportuna:** Al mantener un seguimiento constante de los tickets, se asegura que las incidencias se resuelvan en los plazos comprometidos, mejorando la satisfacción del usuario y la eficiencia operativa de la organización.
+
+2 END"}
+{"prompt": "¿Cuál es el objetivo del reporte semanal que el Desarrollador Sr debe elaborar? ->", "completion": "El objetivo del reporte semanal que el Desarrollador Sr debe elaborar es proporcionar una visión general del progreso y el estado del departamento, brindando a la gerencia una visión clara de los logros y áreas de mejora. Además, facilita la comunicación y la alineación de objetivos dentro del departamento. Este reporte debe incluir información sobre tareas completadas, tiempos de respuesta de tickets, tickets solicitados, tickets resueltos, y debe siempre incluir la información sobre tareas o actividades atrasadas así como cualquier otra información relevante para la gestión y toma de decisiones. END"}
+{"prompt": "Explica el procedimiento de deploy de actualizaciones en sistema. ->", "completion": "El procedimiento de deploy de actualizaciones en sistema consiste en implementar y poner en funcionamiento las actualizaciones de software en un sistema o aplicación existente. El proceso incluye instalar y configurar las nuevas versiones, parches o mejoras del software, asegurándose de que se realice de manera correcta y sin interrupciones en el funcionamiento del sistema. El objetivo de este procedimiento es mantener el sistema actualizado con las últimas mejoras, correcciones de errores o características adicionales que brinden un mejor rendimiento, seguridad o funcionalidad. END"}
+{"prompt": "¿Qué actividades se consideran mensuales para el Desarrollador Sr? ->", "completion": "La actividad mensual para el Desarrollador Sr, como se describe en el texto, es:
+
+- 6.3.1 Reporte mensual para gerencia del departamento: Este reporte está orientado a dar a conocer a la gerencia del departamento los logros realizados individualmente que aporten a los objetivos del departamento, sin tomar en cuenta actividades del día a día. El objetivo del reporte es mantener la alineación de cada colaborador dentro del equipo con los objetivos del departamento que a su vez están alineados con los objetivos de la empresa. END"}
+{"prompt": "Describe la importancia del resumen anual de proyectos en la planificación del equipo. ->", "completion": "La importancia del resumen anual de proyectos en la planificación del equipo radica en varios aspectos clave:
+
+1. **Evaluación del desempeño**: El resumen anual permite evaluar cómo el equipo ha manejado y completado los proyectos a lo largo del año. Esto incluye revisar si se alcanzaron los objetivos establecidos, cómo se enfrentaron los desafíos y el uso eficiente de los recursos. Esta evaluación ayuda a identificar las fortalezas y áreas de mejora en las estrategias y ejecuciones del equipo.
+
+2. **Rendición de cuentas y transparencia**: Proporciona una visión clara y detallada de las actividades y logros del equipo a la gerencia y otras partes interesadas. Esto fomenta un ambiente de responsabilidad y transparencia dentro de la organización.
+
+3. **Alineación estratégica**: Facilit END"}
+{"prompt": "¿Cuáles son las responsabilidades específicas del Desarrollador Sr mencionadas en el documento? ->", "completion": "Las responsabilidades específicas del Desarrollador Sr mencionadas en el documento son:
+
+1. **Realizar pruebas de funcionalidad antes de la entrega de producto final:** Asegurarse de que los productos software funcionen correctamente antes de ser desplegados.
+  
+2. **Realizar los Deploy correspondientes a proyectos finalizados:** Gestionar y ejecutar la implementación de software una vez que los proyectos han concluido.
+
+3. **Realizar planeación y maquetado de proyectos de software:** Planificar el diseño y estructura de los proyectos de software antes de su desarrollo.
+
+4. **Realizar estimaciones de tiempo de desarrollo:** Estimar el tiempo necesario para completar tareas y proyectos de desarrollo de software.
+
+5. **Seguimiento de proyectos asignados:** Monitorear el progreso y cumplimiento de los proyectos de software asignados.
+
+6. **Seguimiento de tickets asignados:** Gestionar y resolver END"}
+{"prompt": "Explica cómo un Desarrollador Jr apoya al Desarrollador Sr en sus responsabilidades. ->", "completion": "Un Desarrollador Jr apoya al Desarrollador Sr en sus responsabilidades de varias maneras esenciales, como se detalla en la sección 5.0 del procedimiento para un Desarrollador de Software Sr:
+
+1. **Realización de pruebas unitarias**: Antes de que los desarrollos se publiquen en el entorno de producción, el Desarrollador Jr realiza pruebas unitarias para asegurarse de que el código funciona correctamente según los requisitos especificados. Esto ayuda al Desarrollador Sr a garantizar la calidad y la funcionalidad del software antes de su despliegue final.
+
+2. **Gestión de fusiones de código (Merge)**: El Desarrollador Jr es responsable de realizar los merges de los cambios en el código con la rama principal antes de subirlo a producción. Esta actividad es crucial para mantener la integridad del código y asegurar END"}
+{"prompt": "Detalla las actividades semanales y su relevancia en la gestión de proyectos. ->", "completion": "Las actividades semanales establecidas en el procedimiento para el Desarrollador de Software Sr incluyen tres actividades principales que son cruciales para la gestión eficiente de proyectos dentro de la organización. Son:
+
+1. **Reporte semanal para gerencia de departamento**:
+   - **Descripción**: Elaboración y presentación de un informe detallado que resume las actividades y los resultados alcanzados durante la semana en relación a los proyectos de desarrollo asignados. 
+   - **Relevancia**: Proporciona una visión general del progreso y estado del departamento a la gerencia. Facilita la comunicación y la alineación de objetivos dentro del departamento, contribuyendo a una mejor toma de decisiones y destacando áreas que requieren atención o mejora.
+
+2. **Deploy de actualizaciones en sistema**:
+   - **Descripción**: Implementación y puesta en funcionamiento de las actualiz END"}

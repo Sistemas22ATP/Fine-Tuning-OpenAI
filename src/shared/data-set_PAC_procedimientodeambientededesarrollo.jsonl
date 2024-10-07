@@ -1,0 +1,87 @@
+{"prompt": "¿Cuál es el objetivo principal del documento? ->", "completion": "El objetivo principal del documento es dar a conocer las actividades necesarias para preparar un ambiente de desarrollo y permitir que el desarrollo de software se realice de forma ágil, acortando los tiempos. END"}
+{"prompt": "Describe a quién aplica el alcance del procedimiento. ->", "completion": "El alcance del procedimiento descrito en el documento aplica exclusivamente al personal de TI del área de desarrollo, específicamente a los puestos de Coordinador de Desarrollo y Desarrollador Sr. END"}
+{"prompt": "Define qué es GitHub según el documento. ->", "completion": "Según el documento, GitHub es un portal creado para alojar el código de las aplicaciones de cualquier desarrollador. END"}
+{"prompt": "Explica el concepto de sprint y su importancia en el desarrollo ágil. ->", "completion": "En el texto proporcionado, el concepto de sprint se define como un período breve de tiempo fijo durante el cual un equipo de scrum trabaja para completar una cantidad establecida de trabajo. Este concepto es central en las metodologías ágiles de desarrollo de software, especialmente en Scrum, que es una de las metodologías ágiles más utilizadas.
+
+La importancia del sprint en el desarrollo ágil se centra en varios aspectos clave:
+
+1. **Iteración rápida**: Los sprints permiten al equipo de desarrollo trabajar en ciclos cortos y manejables, completando tareas específicas dentro de cada ciclo. Esto facilita la iteración rápida y mejora la capacidad del equipo para adaptarse a los cambios rápidamente.
+
+2. **Planificación y organización**: Cada sprint comienza con una reunión de planificación en la que el equipo selecciona tareas del backlog (lista END"}
+{"prompt": "¿Cuáles son las responsabilidades del Coordinador de Desarrollo según el procedimiento? ->", "completion": "Las responsabilidades del Coordinador de Desarrollo según el procedimiento son:
+
+1. Definir responsables del desarrollo del sprint.
+2. Traspaso de historias de usuario a Jira.
+3. Obtener y definir casos de uso.
+4. Definir fechas de inicio de sprint. END"}
+{"prompt": "Enumera las tareas que debe realizar un Desarrollador Sr. ->", "completion": "Según el texto proporcionado, las tareas que debe realizar un Desarrollador Sr. son:
+
+1. Crear un repositorio en GitHub.
+2. Crear ramas en el repositorio de GitHub.
+3. Definir las tablas o bases de datos necesarias para el proyecto en desarrollo. 
+4. Participar en la definición de los datos de entrada y salida del proceso, acorde a lo especificado en el RFP.
+5. Colaborar en la definición de las limitaciones de los usuarios en relación con los procesos descritos, asegurando que se cumplan los permisos necesarios. END"}
+{"prompt": "¿Qué actividad se debe realizar primero si el proyecto es nuevo según la sección 5.1? ->", "completion": "Si el proyecto es nuevo, según la sección 5.1 del procedimiento, se debe realizar primero la actividad 5.2 CREACIÓN DE REPOSITORIO EN GITHUB. END"}
+{"prompt": "Describe el proceso de creación de un repositorio en GitHub. ->", "completion": "El proceso de creación de un repositorio en GitHub, según el procedimiento establecido en el texto, involucra varios pasos detallados en la sección 5.2 del documento. A continuación, se describe el procedimiento:
+
+1. Asignación de Recursos:
+   - El coordinador de desarrollo asigna el número de desarrolladores necesarios para completar las historias de usuario contempladas en el sprint.
+
+2. Comunicación:
+   - El coordinador debe informar mediante correo electrónico a los desarrolladores y al usuario solicitante quiénes serán los responsables del desarrollo del proyecto.
+
+3. Creación de Historias en JIRA:
+   - El coordinador crea la historia en jira y asigna al Desarrollador Sr de acuerdo con el instructivo (I.TIDS.001) Jira Software en el punto 5.6.
+
+Este procedimiento está diseñado para asegurar que el proceso de creación END"}
+{"prompt": "¿Qué elementos debe considerar el Desarrollador Sr al definir la estructura del proyecto? ->", "completion": "El Desarrollador Sr debe considerar los siguientes elementos al definir la estructura del proyecto:
+
+1. **Lenguaje de programación**: Debe definir el lenguaje en el que el proyecto será programado.
+2. **Uso o implementación de servicios web de terceros**: Evaluar si se requiere la integración con servicios web externos.
+3. **Tablas auxiliares en una base de datos**: Determinar si se necesitan tablas auxiliares para el manejo de datos dentro del proyecto. END"}
+{"prompt": "Explica el procedimiento para el traspaso de historias de usuario a Jira. ->", "completion": "El procedimiento para el traspaso de historias de usuario a Jira se detalla en la sección 5.4 del texto proporcionado y consiste en los siguientes pasos:
+
+1. **Transcripción de Historias de Usuario**: El Coordinador de Desarrollo transcribe cada historia de usuario y agrega los criterios de aceptación correspondientes.
+
+2. **Incorporación en JIRA Software**: Las historias de usuario se añaden dentro de la plataforma JIRA Software en el área de backlog.
+
+3. **Orden de Prioridad**: El Coordinador de Desarrollo debe tomar en cuenta el orden de prioridad definido por el usuario solicitante para el orden de captura.
+
+Este proceso se realiza conforme a lo especificado en el instructivo I.TIDS.001 Jira Software en el punto 5.5, asegurando que las historias de usuario estén correctamente organizadas y priorizadas para END"}
+{"prompt": "¿Qué se debe hacer en caso de que el proyecto ya esté definido al definir las tablas o bases de datos? ->", "completion": "En caso de que el proyecto ya esté definido al definir las tablas o bases de datos, el Desarrollador Sr debe asignar las tablas existentes o, en su defecto, crear nuevas tablas. Esto es parte de la actividad 5.5.1, que implica definir en qué base de datos se trabajará y gestionar las tablas correspondientes, garantizando que el entregable final incluya un diagrama entidad relación conforme a la plantilla (F.TIDS.001) Formato RFP. END"}
+{"prompt": "¿Cuál es el proceso para seleccionar historias de usuario e iniciar un sprint en Jira? ->", "completion": "El proceso para seleccionar historias de usuario e iniciar un sprint en Jira, según se describe en el procedimiento de ambiente de desarrollo (P.TIDS.003-2), es el siguiente:
+
+1. **Selección de Historias de Usuario**: El Coordinador de Desarrollo selecciona las historias de usuario que corresponden al sprint. Este proceso incluye pasar las historias de usuario desde el backlog al sprint actual en Jira. El coordinador toma en cuenta el orden de prioridad definido por el usuario solicitante para el orden de captura. Este paso está referenciado en el punto 5.6 del documento y debe seguirse de acuerdo con el Instructivo I.TIDS.001 Jira Software en el punto 5.5.
+
+2. **Inicio del Sprint en Jira**: Una vez que las historias de usuario son seleccionadas y priorizadas, el Coordinador de Desarrollo inicia el sprint en END"}
+{"prompt": "Describe cómo se definen las fechas de pruebas en Jira. ->", "completion": "Las fechas de pruebas en Jira se definen de la siguiente manera, según el procedimiento descrito en el documento:
+
+5.7 DEFINIR FECHA DE PRUEBAS EN JIRA:  
+El coordinador de desarrollo, antes de considerar finalizado el SPRINT, toma en cuenta el tiempo necesario para que alguien más realice pruebas en el desarrollo y verifique su óptimo funcionamiento. Esto implica que se asigna un tiempo específico dentro del ciclo del SPRINT para que las pruebas puedan ser ejecutadas y evaluadas adecuadamente, asegurando que el desarrollo cumpla con los estándares de calidad requeridos antes de su entrega final. END"}
+{"prompt": "¿Qué información se debe incluir al definir la fecha de fin de sprint en Jira? ->", "completion": "Según el procedimiento detallado en el texto, al definir la fecha de fin de sprint en Jira, el coordinador de desarrollo debe definir una fecha de entrega previa a la fecha de entrega del sprint para permitir la revisión del proyecto por el mismo equipo de desarrollo asignado. Este paso se detalla en la sección 5.8 del documento, bajo la actividad "5.8 DEFINIR FECHA DE FIN DE SPRINT EN JIRA". END"}
+{"prompt": "Detalla el procedimiento para crear una nueva rama en el repositorio de GitHub. ->", "completion": "El procedimiento para crear una nueva rama en el repositorio de GitHub, según el texto proporcionado, es el siguiente:
+
+5.9 CREACION DE UNA NUEVA RAMA EN EL REPOSITORIO DE GITHUB:
+5.9.1 El desarrollador Sr asignado crea una nueva rama con la clave, nombre y fecha en el repositorio de GitHub, de acuerdo con el instructivo (I.TIDS.002) GitHub en el punto 5.4.
+
+Este procedimiento indica que el desarrollador senior responsable debe seguir las especificaciones del instructivo proporcionado para asegurarse de que la rama se crea correctamente con los detalles requeridos como la clave, el nombre y la fecha. END"}
+{"prompt": "¿Qué deben definir el Coordinador de Desarrollo y el Desarrollador Sr en cuanto a los datos de entrada y salida? ->", "completion": "El Coordinador de Desarrollo y el Desarrollador Sr deben definir los datos de entrada, que podrían incluirse a través de diversos métodos como llenando un formulario, Excel, XML, etc., y los datos de salida del resultado esperado, de acuerdo a lo descrito en el RFP (Request for Proposal). END"}
+{"prompt": "Explica cómo se definen las limitaciones de los usuarios en el proceso. ->", "completion": "Las limitaciones de los usuarios se definen en la actividad 5.11 del procedimiento de ambiente de desarrollo denominado DEFINIR LIMITACIONES DE LOS USUARIOS. En esta actividad, el coordinador de desarrollo junto al Desarrollador Sr trabajan en conjunto para establecer los permisos específicos que cada usuario tendrá para llevar a cabo el nuevo proceso. La definición de estas limitaciones se realiza acorde a lo descrito en el RFP (Request for Proposal), asegurando que todas las restricciones y permisos son adecuadamente documentados y aplicados para mantener la integridad y la seguridad del sistema o proceso en desarrollo. Esta actividad es crucial para controlar el acceso y las acciones que cada usuario puede realizar dentro del nuevo entorno o sistema desarrollado. END"}
+{"prompt": "¿Qué sanciones se establecen para los usuarios que incumplan el procedimiento? ->", "completion": "Las sanciones establecidas para los usuarios que incumplan el procedimiento incluyen:
+
+1. Constancia de hechos.
+2. Acta administrativa.
+3. Baja laboral inmediata. END"}
+{"prompt": "¿Cuál es el entregable especificado en el documento y su formato? ->", "completion": "El entregable especificado en el documento es un Diagrama de entidad relación. El formato para este entregable es el Formato Diagrama entidad relación F.TIDS.001. END"}
+{"prompt": "Menciona las métricas que se utilizan para evaluar los proyectos de desarrollo. ->", "completion": "Las métricas que se utilizan para evaluar los proyectos de desarrollo, según el texto, son:
+
+- Todos los proyectos de desarrollo con repositorio en GitHub. END"}
+{"prompt": "¿Qué documentos se citan como referencias en el procedimiento? ->", "completion": "Los documentos citados como referencias en el procedimiento son:
+
+1. I.TIDS.001 Instructivo Jira Software
+2. I.TIDS.002 Instructivo GitHub END"}
+{"prompt": "Resume brevemente el control de cambios mencionado en el documento. ->", "completion": "El control de cambios mencionado en el documento incluye dos revisiones:
+
+1. La primera revisión (Número de revisión 1), realizada el 24/02/2022, con un cambio consecutivo número 1. El cambio implicó añadir mayor detalle a cada actualización realizada en el documento.
+
+2. La segunda revisión (Número de revisión 2), realizada el 02/08/2024, con un cambio consecutivo número 2. Este cambio consistió en una actualización de la nomenclatura y cambios en el orden de los títulos del documento. END"}

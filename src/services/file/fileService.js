@@ -7,7 +7,7 @@ async function TransformData() {
         apiKey: process.env.OPENAI_API_KEY,
     });
     
-    const pdfBuffer = fs.readFileSync("src/shared/202408012132082488.pdf");
+    const pdfBuffer = fs.readFileSync("src/shared/202409182226312576.pdf");
     const pdfData = await pdf(pdfBuffer);
     
     const productInfo = pdfData.text;
@@ -15,28 +15,28 @@ async function TransformData() {
     console.log(productInfo);
 
     const qaPairs = [
-        "Describe el objetivo principal de este procedimiento de desarrollo de software",
-        "¿A quiénes aplica el alcance de este procedimiento? Enumera los grupos de personal involucrados.",
-        "Explica qué es un Backlog en el contexto de un proyecto de software.",
-        "Define qué es un RFP y su importancia en el proceso de desarrollo de software.",
-        "¿Qué es un Sprint y cuál es su duración típica según el procedimiento?",
-        "Indica las responsabilidades del usuario solicitante en el desarrollo de software.",
-        "Describe las actividades que debe realizar un desarrollador Sr durante un proyecto.",
-        "¿Cuál es el papel del coordinador de desarrollo en la creación del Backlog?",
-        "Explica cómo el usuario solicitante organiza las funciones por prioridad en el Backlog.",
-        "Describe el proceso de revisión de un RFP. ¿Qué se debe asegurar el coordinador de desarrollo?",
-        "¿Cuáles son los pasos a seguir después de definir un Sprint?",
-        "Explica el proceso de preparación del ambiente de desarrollo y su plazo máximo.",
-        "¿Qué acciones debe llevar a cabo el equipo de desarrollo asignado durante la programación?",
-        "Detalla el proceso de validación de funciones tras completar el procedimiento de programación.",
-        "¿Qué es una demostración y cuál es su importancia en el proceso de desarrollo?",
-        "Explica qué se incluye en la constancia de entrega de sprint y quiénes deben firmarla.",
-        "Describe el proceso de Deploy y su horario recomendado.",
-        "¿Qué sanciones pueden enfrentarse los usuarios que incumplan con este procedimiento?",
-        "Enumera los entregables que se generan a lo largo del proceso de desarrollo de software.",
-        "¿Qué métricas se utilizan para evaluar el progreso de los proyectos asignados?",
-        "¿Qué documentos de referencia son mencionados en este procedimiento?",
-        "Explica el control de cambios que se ha aplicado a este procedimiento. ¿Qué modificaciones se realizaron en la revisión del 01/08/2024?"
+        "¿Cuáles son las actividades diarias que debe realizar el Gerente de TI según el documento?",
+        "Describe la responsabilidad del Gerente de TI en la continuidad de operaciones.",
+        "¿Qué sistemas y herramientas debe utilizar el Gerente de TI para la gestión de incidencias?",
+        "¿Cuáles son las principales actividades mensuales que debe llevar a cabo el Gerente de TI?",
+        "Explica cómo el Gerente de TI debe llevar a cabo la rendición de cuentas con la gerencia general.",
+        "¿Qué información es esencial para mantener actualizada la plataforma Project según las directrices del documento?",
+        "Describe el proceso de captura de indicadores que realiza el Gerente de TI.",
+        "¿Cómo se debe asegurar la actualización del calendario de suscripciones en la empresa?",
+        "Explica la importancia de los PACs y cómo el Gerente de TI debe actualizarlos.",
+        "¿Cuáles son las responsabilidades específicas del Desarrollador Jr en el departamento de TI?",
+        "¿Qué procedimientos debe seguir el Gerente de TI para la contratación de servicios y autorización de compras?",
+        "Enumera los departamentos con los que el Gerente de TI debe interactuar y su relevancia.",
+        "¿Qué herramientas y plataformas se mencionan en el documento y para qué sirven?",
+        "Describe el proceso de actualización de procedimientos que debe llevar a cabo el Gerente de TI.",
+        "¿Cuáles son las preguntas clave que el Gerente de TI debe hacer en el Daily Scrum Meeting?",
+        "Explica el rol de la infraestructura en las actividades del Gerente de TI.",
+        "¿Qué pasos debe seguir el Gerente de TI para garantizar la integridad de la información almacenada?",
+        "¿Cómo debe el Gerente de TI gestionar el seguimiento de correos electrónicos?",
+        "Describe las responsabilidades del Administrador de infraestructura en el equipo de TI.",
+        "¿Qué información se debe incluir en la entrega de resultados mensual?",
+        "¿Cómo se realiza la captura de incidencias en la plataforma intranet?",
+        "Explica la relación entre el Gerente de TI y los indicadores de desempeño dentro del departamento."
     ];
 
     for (const question of qaPairs) {

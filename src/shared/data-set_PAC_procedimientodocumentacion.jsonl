@@ -1,0 +1,84 @@
+{"prompt": "¿Cuál es el objetivo principal del procedimiento de documentación en el área de desarrollo de software? ->", "completion": "El objetivo principal del procedimiento de documentación en el área de desarrollo de software es dar a conocer las actividades necesarias para llevar a cabo la correcta documentación de las actividades realizadas en esta área. END"}
+{"prompt": "¿A quiénes aplica el procedimiento según el alcance establecido? ->", "completion": "El procedimiento aplica al personal de Grupo Avance y Tecnología en Plásticos, específicamente a los roles de desarrollador junior, desarrollador senior y coordinador de desarrollo. END"}
+{"prompt": "Define qué es Confluence en el contexto del desarrollo de software. ->", "completion": "Confluence, en el contexto del desarrollo de software, es un sistema proporcionado por Jira que actúa como una herramienta de colaboración en línea. Permite a los equipos trabajar conjuntamente en la creación y gestión de contenido, facilitando el intercambio de ideas, así como comentar y editar documentos en tiempo real. Además, Confluence puede ser utilizado para crear y mantener una base de conocimientos, lo que permite a los equipos documentar y compartir sus procesos y mejores prácticas. Esto ayuda a centralizar la información y mejoran la organización interna y la accesibilidad de la documentación relevante dentro de un proyecto de desarrollo de software. END"}
+{"prompt": "¿Cuáles son las responsabilidades del coordinador de desarrollo según el documento? ->", "completion": "Según el documento, las responsabilidades del coordinador de desarrollo son las siguientes:
+
+1. Planificación: Establecer un plan que incluya los objetivos de la documentación, el alcance y el público objetivo de la misma e informar al desarrollador encargado de documentar.
+2. Revisión y validación: Revisar y validar la documentación para asegurarse de que sea precisa, completa y fácil de entender para un usuario promedio. En caso de que no sea aceptada, incluir comentarios que señalen faltantes o sugerencias en la redacción para que sean tomadas en cuenta por el desarrollador.
+3. Publicación y mantenimiento: Publicar el documento generado en Confluence, asegurando que esté disponible para el resto de los usuarios según el instructivo (I.TIDS.003) Confluence en el punto 1.2. END"}
+{"prompt": "Enumera las responsabilidades de los desarrolladores Jr y Sr en el proceso de documentación. ->", "completion": "Las responsabilidades de los desarrolladores Jr y Sr en el proceso de documentación, según el documento, son:
+
+1. Análisis de software: Analizar el software para comprender sus funcionalidades, características y limitaciones.
+2. Crear estructura de la documentación: Crear la estructura de la documentación en una nueva página de Confluence de acuerdo al instructivo (I.TIDS.003) Confluence.
+3. Redacción de la documentación: Redactar todo el contenido de la documentación de manera clara, concisa y fácil de entender. Pueden incluir imágenes, videos y otros medios multimedia para hacer la documentación más accesible.
+4. Integración con la base de conocimientos: Asegurarse que el contenido de la documentación, así como los títulos o subtítulos de cada sección, estén escritos en un lenguaje comprensible para todos los usuarios, y aseg END"}
+{"prompt": "Describe el primer paso que debe realizar el coordinador de desarrollo en la planificación de la documentación. ->", "completion": "El primer paso que debe realizar el coordinador de desarrollo en la planificación de la documentación consiste en establecer un plan que incluya los objetivos de la documentación, el alcance y el público objetivo de la misma, y comunicar este plan al desarrollador encargado de documentar. END"}
+{"prompt": "¿Qué debe hacer el desarrollador asignado antes de redactar la documentación? ->", "completion": "Antes de redactar la documentación, el desarrollador asignado debe realizar las siguientes actividades:
+
+1. **Análisis de software**: Analizar el software para comprender sus funcionalidades, características y limitaciones.
+2. **Crear estructura de la documentación**: Crear la estructura de la documentación en una nueva página de Confluence, siguiendo el instructivo (I.TIDS.003) y asegurando que incluya todas las secciones necesarias para facilitar la lectura de la información.
+
+Estos pasos son fundamentales para garantizar que la documentación sea precisa, completa y útil para el público objetivo. END"}
+{"prompt": "Explica cómo debe estructurarse la documentación en Confluence según el instructivo mencionado. ->", "completion": "Según el instructivo (I.TIDS.003) Confluence mencionado en el procedimiento de documentación, la estructura de la documentación en Confluence debe realizarse siguiendo los pasos especificados abajo:
+
+1. Crear nueva página: El desarrollador asignado debe iniciar creando una nueva página en Confluence.
+
+2. Estructuración de contenido:
+   - En el punto 1.1 del instructivo, se debe incluir las secciones necesarias para facilitar la lectura de la información. Esto implica organizar la documentación de forma lógica y coherente, asegurando que las secciones estén bien definidas y claramente separadas para una mejor comprensión y navegación.
+
+3. Incluir elementos multimedia:
+   - Según la sección 5.4 del procedimiento de documentación, se puede incluir imágenes, videos y otros medios multimedia para hacer la documentación END"}
+{"prompt": "¿Qué elementos adicionales se pueden incluir en la redacción de la documentación para mejorar su accesibilidad? ->", "completion": "Para mejorar la accesibilidad de la documentación según el procedimiento descrito en el texto, se pueden incluir los siguientes elementos adicionales:
+
+1. **Uso de Lenguaje Claro y Sencillo:** Utilizar un lenguaje claro, directo y exento de jerga técnica innecesaria para asegurar que todos los usuarios, incluyendo aquellos con menor conocimiento técnico, puedan entender la documentación sin dificultades.
+
+2. **Inclusión de Glosario:** Añadir un glosario al final del documento o en la base de conocimientos que defina términos técnicos y específicos utilizados en la documentación, facilitando su comprensión.
+
+3. **Subtítulos Descriptivos y Numeración Clara:** Organizar la información con subtítulos que describan claramente el contenido de cada sección y usar una numeración clara y secuencial para END"}
+{"prompt": "¿Cómo se asegura el desarrollador de que la documentación sea comprensible para todos los usuarios? ->", "completion": "El desarrollador se asegura de que la documentación sea comprensible para todos los usuarios mediante varias acciones clave descritas en el procedimiento:
+
+1. **Redacción clara y concisa**: El desarrollador asignado redacta todo el contenido de la documentación de manera clara y fácil de entender. Se pueden incluir imágenes, videos y otros medios multimedia para hacer la documentación más accesible para el público objetivo (Sección 5.4.1).
+
+2. **Lenguaje comprensible**: Asegura que tanto el contenido como los títulos y subtítulos de cada sección estén escritos en un lenguaje comprensible para todos los usuarios. Esto facilita que la información sea accesible a un rango más amplio de personas, independientemente de su nivel de especialización técnica (Sección 5.5.1).
+
+3. **Revisión y validación**: Después de red END"}
+{"prompt": "¿Qué pasos sigue el coordinador de desarrollo para revisar y validar la documentación? ->", "completion": "El coordinador de desarrollo sigue los siguientes pasos para revisar y validar la documentación, según se describe en el procedimiento:
+
+1. **Revisión y validación:**
+   - El coordinador de desarrollo revisa la documentación redactada para asegurarse de que sea precisa, completa y fácil de entender para un usuario promedio.
+
+2. **Comentarios y sugerencias:**
+   - En caso de que la documentación no sea aceptada, el coordinador incluye comentarios que señalen faltantes o sugerencias en la redacción, para que sean tomadas en cuenta por el desarrollador asignado a la documentación.
+
+3. **Decisión de aceptación:**
+   - Si la documentación es aceptada en la revisión, se procede al siguiente paso de publicación y mantenimiento.
+   - Si la documentación no es aceptada, se regresa a la etapa de Redacción de la documentación (actividad END"}
+{"prompt": "¿Qué sucede si la documentación no es aceptada por el coordinador de desarrollo? ->", "completion": "Si la documentación no es aceptada por el coordinador de desarrollo, el proceso indica que se debe regresar a la actividad 5.4, que es la Redacción de la documentación. En esta fase, se deben incluir comentarios que señalen las deficiencias o sugerencias en la redacción para que sean tomadas en cuenta por el desarrollador encargado de la documentación. Luego, se debe realizar nuevamente la redacción del contenido de la documentación de acuerdo a estos comentarios para asegurar que cumpla con los requisitos establecidos y sea precisa, completa y fácil de entender para un usuario promedio. Una vez revisada y validada satisfactoriamente, puede procederse a la publicación y mantenimiento. END"}
+{"prompt": "Describe el proceso de publicación de la documentación en Confluence. ->", "completion": "El proceso de publicación de la documentación en Confluence se describe en las secciones 5.1, 5.6 y 5.7 del procedimiento documentación P.TIDS.002-2. A continuación, se detalla cada paso conforme a las actividades mencionadas:
+
+1. **Planificación (5.1)**:
+   - **5.1.1**: El coordinador de desarrollo establece un plan que incluye los objetivos de la documentación, el alcance y el público objetivo. Este plan se comunica al desarrollador encargado de documentar.
+
+2. **Revisión y Validación (5.6)**:
+   - **5.6.1**: Antes de la publicación, el coordinador de desarrollo revisa y valida la documentación para asegurarse de que sea precisa, completa y comprensible para un usuario promedio. Si la documentación es aceptada, procede a la END"}
+{"prompt": "¿Qué sanciones se establecen para el usuario que incumpla con el procedimiento de documentación? ->", "completion": "Las sanciones establecidas para el usuario que incumpla con el procedimiento de documentación son:
+
+1. Constancia de hechos.
+2. Acta administrativa.
+3. Baja laboral inmediata. END"}
+{"prompt": "¿Qué entregables se esperan al final del proceso de documentación? ->", "completion": "Al final del proceso de documentación, se espera el siguiente entregable:
+
+7.1 Página en base de conocimientos. END"}
+{"prompt": "¿Cuáles son las métricas utilizadas para evaluar el éxito de la documentación? ->", "completion": "Las métricas utilizadas para evaluar el éxito de la documentación, según el procedimiento P.TIDS.002-2, son:
+
+1. Documentos publicados en la base de conocimientos.
+2. Visualización de documentos consultados en la base de conocimientos. END"}
+{"prompt": "Menciona la referencia que se incluye en el documento para el instructivo de Confluence. ->", "completion": "La referencia que se incluye en el documento para el instructivo de Confluence es I.TIIN.002 Instructivo Confluence. END"}
+{"prompt": "¿Qué implicaciones tiene el marco legal según el procedimiento? ->", "completion": "Según el procedimiento documentado en el texto proporcionado, la sección 10.0 Marco Legal indica que No aplica. Esto implica que no hay requisitos legales específicos mencionados o necesarios para la implementación del procedimiento descrito en el documento. Por lo tanto, no se deben considerar regulaciones o leyes específicas para llevar a cabo las actividades descritas en cuanto a la documentación de software dentro de la organización mencionada en el documento. Esto podría significar que el procedimiento se desenvuelve internamente y se rige principalmente por las políticas internas de la empresa más que por mandatos legales externos. END"}
+{"prompt": "¿Se han incluido anexos en este procedimiento? Justifica tu respuesta. ->", "completion": "No, no se han incluido anexos en este procedimiento. La justificación para esta respuesta se encuentra en la página 5 del documento, bajo la sección 11.0 Anexos, donde claramente se indica No aplica. Esto significa que en el procedimiento actual, no se consideró necesario incluir anexos adicionales. END"}
+{"prompt": "¿Qué tipo de cambios se registran en el control de cambios del documento? ->", "completion": "En el control de cambios del documento se registran los siguientes tipos de cambios:
+
+1. Primera versión del procedimiento.
+2. Corrección de la numeración de los títulos y subtítulos en Word. END"}
+{"prompt": "Describe el contenido de la primera versión del procedimiento. ->", "completion": "La primera versión del procedimiento, la cual corresponde al número de revisión 0, fue descrita simplemente como Primera versión de procedimiento y fue creada el 10 de marzo de 2022. No se proporcionan detalles adicionales sobre el contenido específico o las áreas que abarcó esa versión inicial en el texto proporcionado. END"}
+{"prompt": "¿Qué correcciones se hicieron en la segunda revisión del procedimiento? ->", "completion": "En la segunda revisión del procedimiento P.TIDS.002-2, realizada el 02/02/2024 y correspondiente al número de revisión 1, se corrigió la numeración de los títulos y subtítulos en Word. END"}

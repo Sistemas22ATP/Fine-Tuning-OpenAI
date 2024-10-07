@@ -1,0 +1,151 @@
+{"prompt": "¿Cuáles son las actividades diarias que debe realizar el Gerente de TI según el documento? ->", "completion": "Según el documento, las actividades diarias que el Gerente de TI debe realizar son:
+
+1. Daily Scrum Meeting: Es una sesión de no más de 20 minutos en la que se informa rápidamente lo que se logró el día anterior y se planean las actividades del día actual. El gerente de TI debe realizar las siguientes preguntas a cada integrante del equipo:
+   - ¿Qué se hizo ayer?
+   - ¿Qué se hará hoy?
+   - ¿Existe algún impedimento para completar la actividad asignada?
+
+2. Revisión plataforma de tickets: Garantizar que el equipo de Tecnologías de la Información realice un seguimiento y cumpla de manera oportuna con los tickets generados por los usuarios de diversos departamentos.
+
+3. Seguimiento de correos: El gerente de TI es responsable de revisar constantemente su buzón de correo asignado, así como dar respuestas a los END"}
+{"prompt": "Describe la responsabilidad del Gerente de TI en la continuidad de operaciones. ->", "completion": "La responsabilidad del Gerente de TI en la continuidad de operaciones se define como garantizar la disponibilidad y funcionalidad de los sistemas y procesos críticos de la empresa en situaciones adversas, asegurando la continuidad del negocio. Esto implica que el Gerente de TI debe tomar medidas proactivas y preparar estrategias para mantener operativos los servicios esenciales de la empresa en caso de contingencias o interrupciones, minimizando así el impacto negativo en las operaciones diarias. END"}
+{"prompt": "¿Qué sistemas y herramientas debe utilizar el Gerente de TI para la gestión de incidencias? ->", "completion": "El Gerente de Tecnologías de la Información debe utilizar las siguientes herramientas y sistemas para la gestión de incidencias:
+
+1. **Jira (Sistema de Tickets)**: Esta herramienta facilita la gestión de proyectos y seguimiento de incidencias, ayudando en la colaboración y el seguimiento de tareas en equipos de trabajo.
+2. **Plataforma de tickets**: Durante la revisión diaria y semanal, se asegura que el equipo de TI realice un seguimiento y cumpla de manera oportuna con los tickets generados por los usuarios de diversos departamentos.
+3. **Plataforma de soporte técnico P.TIIN.001-2**: Se menciona como el procedimiento bajo el cual se deben actualizar la información en la plataforma de tickets para asegurar que los informes de cumplimiento reflejen la información real del estatus de proyectos y seguimientos de soporte.
+
+Estas herramientas END"}
+{"prompt": "¿Cuáles son las principales actividades mensuales que debe llevar a cabo el Gerente de TI? ->", "completion": "Las principales actividades mensuales que debe llevar a cabo el Gerente de TI son:
+
+1. **Captura de indicadores**: Realizada el primer miércoles de cada mes antes de la 1pm, el Gerente de TI captura el monto correspondiente al porcentaje obtenido por cada uno de los integrantes del equipo de TI, según los formatos de cálculo de indicadores establecidos.
+
+2. **Entrega de resultados**: Esta actividad se realiza el segundo martes de cada mes de manera presencial, donde el Gerente de TI asiste junto a la alta gerencia y otros gerentes de departamento para presentar los indicadores generales del departamento, los objetivos a cumplir durante cada trimestre, así como los resultados de los objetivos del mes actual. END"}
+{"prompt": "Explica cómo el Gerente de TI debe llevar a cabo la rendición de cuentas con la gerencia general. ->", "completion": "El Gerente de TI debe llevar a cabo la rendición de cuentas con la gerencia general de la siguiente manera, según se detalla en el documento:
+
+1. **Revisión de la Plataforma de Proyectos**: La rendición de cuentas implica una revisión conjunta de la plataforma de proyectos con la gerencia general. Esto incluye evaluar el progreso y el estado de las actividades asignadas.
+
+2. **Evaluación de Actividades en Atraso**: Se debe evaluar y discutir las actividades que tienen retrasos para determinar las causas y buscar soluciones efectivas.
+
+3. **Informe de Actividades a Entregar en la Semana en Curso**: Se presenta un resumen de las actividades y proyectos que deben ser completados y entregados durante la semana en curso.
+
+4. **Redefinición de Prioridades**: Junto con la gerencia general, el Gerente de TI revisará y re END"}
+{"prompt": "¿Qué información es esencial para mantener actualizada la plataforma Project según las directrices del documento? ->", "completion": "Para mantener actualizada la plataforma Project según las directrices del documento, la información esencial que el Gerente de TI debe asegurar incluye:
+
+1. **Fechas de inicio:** Documentar cuando empieza cada proyecto para facilitar la planificación y el seguimiento.
+2. **Fechas de entrega:** Establecer y actualizar las fechas límite de entrega de cada proyecto para garantizar el cumplimiento de los plazos.
+3. **Descripción del proyecto:** Proporcionar detalles sobre lo que involucra cada proyecto, asegurando que todos los involucrados entiendan su ámbito y objetivos.
+4. **Evidencias de avance de proyecto o finalización:** Registrar y actualizar las pruebas del progreso o la conclusión de los proyectos para evaluar la eficacia y hacer ajustes cuando sea necesario.
+5. **Responsable de cada actividad o proyecto:** Designar y documentar END"}
+{"prompt": "Describe el proceso de captura de indicadores que realiza el Gerente de TI. ->", "completion": "El proceso de captura de indicadores que realiza el Gerente de TI se detalla en el texto en la sección 6.8 del documento. Este proceso incluye los siguientes pasos:
+
+1. **Frecuencia y Tiempo**: La captura de indicadores se lleva a cabo el primer miércoles de cada mes antes de la 1 pm.
+
+2. **Plataformas y Herramientas**: El Gerente de TI utiliza formatos específicos para capturar los indicadores, que son el formato de cálculo de indicadores Desarrollo de software F.TIDS.005 y el formato de cálculo de indicadores Infraestructura F.TIDS.006.
+
+3. **Datos Capturados**: En la captura se incluye el monto correspondiente al porcentaje obtenido por cada uno de los integrantes del equipo de TI, según los formatos mencionados.
+
+Este proceso es crucial para la evaluación END"}
+{"prompt": "¿Cómo se debe asegurar la actualización del calendario de suscripciones en la empresa? ->", "completion": "La responsabilidad de asegurar la actualización del calendario de suscripciones en la empresa recae en el Gerente de TI. Es su deber mantener el calendario actualizado detallando el vencimiento de cada uno de los servicios contratados. Esta actualización tiene como objetivo mantener un registro preciso de los servicios próximos a vencer para gestionar las renovaciones oportunamente. Entre los servicios incluidos en el calendario de renovaciones se encuentran dominios, certificados SSL, pagos a proveedores, vencimiento de suscripciones y contratos con plazos forzosos, y pago de servicios. Esto garantiza una gestión eficiente y evita interrupciones en los servicios que son críticos para la operación de la empresa. END"}
+{"prompt": "Explica la importancia de los PACs y cómo el Gerente de TI debe actualizarlos. ->", "completion": "Los PACs (Planes de Acción Correctiva) son documentos o herramientas vitales dentro de cualquier departamento de una organización, y su importancia radica en su capacidad para detallar los pasos necesarios para corregir o mejorar procesos que no están cumpliendo con los estándares esperados. En el contexto de la gestión de Tecnologías de la Información (TI), los PACs se utilizan para asegurar que todos los sistemas, procesos y actividades cumplan con las políticas de calidad, eficiencia y seguridad establecidas por la empresa.
+
+En el texto proporcionado, se especifica que es responsabilidad del Gerente de TI asegurar la actualización constante de los PACs de puesto correspondientes a su departamento según lo solicite el departamento de capacitación o bien al actualizar las actividades, procesos o responsabilidades de cada actividad o puesto del área. Esto implica que el Gerente de TI debe END"}
+{"prompt": "¿Cuáles son las responsabilidades específicas del Desarrollador Jr en el departamento de TI? ->", "completion": "Las responsabilidades específicas del Desarrollador Jr en el departamento de TI incluyen:
+
+1. Captura de incidencias.
+2. Captura de bonos de indicadores utilizando el Formato de cálculo de indicadores F.TI005.
+3. Asegurar el cumplimiento del procedimiento de desarrollo de software P.TIDS.01.
+4. Asegurar el cumplimiento del procedimiento de soporte técnico P.TIIN.001-2.
+5. Asegurar el cumplimiento de las actividades asignadas.
+6. Definir prioridades de actividades y proyectos a realizar. END"}
+{"prompt": "¿Qué procedimientos debe seguir el Gerente de TI para la contratación de servicios y autorización de compras? ->", "completion": "El Gerente de TI debe seguir los siguientes procedimientos para la contratación de servicios y autorización de compras:
+
+1. Todas las compras solicitadas por el departamento de TI deben ser realizadas con la previa autorización del Gerente de TI, siempre y cuando no excedan los 10,000 USD.
+
+2. Si el monto de la compra excede los 10,000 USD, es necesaria la autorización de la Gerencia General o de la Dirección.
+
+Estos procedimientos están diseñados para asegurar que las compras y contrataciones se realicen de manera adecuada y conforme a los límites de presupuesto establecidos, manteniendo un control sobre los gastos del departamento de Tecnologías de la Información. END"}
+{"prompt": "Enumera los departamentos con los que el Gerente de TI debe interactuar y su relevancia. ->", "completion": "El Gerente de TI necesita interactuar con diversos departamentos dentro de una empresa para garantizar una gestión eficiente y alineada con los objetivos organizacionales. Estos departamentos y su relevancia son:
+
+1. **Dirección**: Esencial para alinear las estrategias de TI con las directrices generales de la empresa y garantizar el apoyo en la toma de decisiones estratégicas.
+
+2. **Compras**: Colabora estrechamente para adquirir la tecnología necesaria que apoye las operaciones del departamento de TI.
+
+3. **Contabilidad**: Interacción necesaria para la gestión de presupuestos, facturación y otros aspectos financieros relacionados con las operaciones de TI.
+
+4. **Auditoría**: Para asegurar el cumplimiento de las normativas y la correcta administración de los recursos tecnológicos.
+
+5. **Gerencia Administrativa**: Colabora para END"}
+{"prompt": "¿Qué herramientas y plataformas se mencionan en el documento y para qué sirven? ->", "completion": "El documento menciona las siguientes herramientas y plataformas junto con sus propósitos:
+
+1. **Dynamics 365 F&O**: Es un sistema de gestión empresarial que abarca funciones financieras y operativas. Facilita la planificación, ejecución y seguimiento de actividades clave dentro de la empresa.
+
+2. **Genesys Cloud**: Plataforma de centro de contacto en la nube que optimiza la interacción con los clientes, mejorando la experiencia y eficiencia en el servicio.
+
+3. **Jira (Sistema de Tickets)**: Herramienta de gestión de proyectos y seguimiento de incidencias que facilita la colaboración y el seguimiento de tareas en equipos de trabajo.
+
+4. **OKR**: Marco de gestión que establece y sigue Objetivos y Resultados Clave para alinear y medir el desempeño organizacional.
+
+5. **VMWare**: Plataforma END"}
+{"prompt": "Describe el proceso de actualización de procedimientos que debe llevar a cabo el Gerente de TI. ->", "completion": "El proceso de actualización de procedimientos que debe llevar a cabo el Gerente de TI implica varias responsabilidades clave:
+
+1. **Revisión y Autorización:**
+   - El Gerente de TI es responsable de revisar y autorizar los procedimientos que son elaborados por los miembros de su equipo.
+
+2. **Creación o Actualización de Contenidos:**
+   - Además de revisar y autorizar, el Gerente de TI debe crear o actualizar el contenido de los procesos que le corresponden directamente. Esto implica asegurarse de que todos los procedimientos estén al día con las prácticas actuales y los estándares de la organización.
+
+3. **Carga en la Plataforma de Documentación:**
+   - Una vez que los procedimientos han sido actualizados o creados, el Gerente de TI debe asegurarse de que estos estén correctamente cargados en la plataforma de documentación END"}
+{"prompt": "¿Cuáles son las preguntas clave que el Gerente de TI debe hacer en el Daily Scrum Meeting? ->", "completion": "En el Daily Scrum Meeting, el Gerente de TI debe realizar las siguientes preguntas clave a cada integrante del equipo:
+
+1. ¿Qué se hizo ayer?
+2. ¿Qué se hará hoy?
+3. ¿Existe algún impedimento para completar la actividad asignada? END"}
+{"prompt": "Explica el rol de la infraestructura en las actividades del Gerente de TI. ->", "completion": "El rol de la infraestructura en las actividades del Gerente de TI, según el documento proporcionado, es fundamental para garantizar la correcta ejecución y operación de las tecnologías de la información dentro de la organización. La infraestructura se menciona varias veces en diversas secciones, demostrando su importancia en las responsabilidades diarias del Gerente de TI. Algunas de las actividades clave del Gerente de TI que involucran la infraestructura incluyen:
+
+1. **Asegurar la disponibilidad de servicios tecnológicos**: El Gerente de TI debe garantizar que todos los servicios tecnológicos, como la página web, puntos de venta, automatizaciones internas y servicios de comunicación como Internet y telefonía, estén siempre disponibles y funcionando eficientemente en todas las sucursales. Esto depende directamente de una infraestructura tecnológica sólidamente gestionada.
+
+2. ** END"}
+{"prompt": "¿Qué pasos debe seguir el Gerente de TI para garantizar la integridad de la información almacenada? ->", "completion": "Para garantizar la integridad de la información almacenada, el Gerente de TI debe seguir los siguientes pasos, según la información proporcionada en el documento:
+
+1. **Asegurar la disponibilidad de los servicios tecnológicos**: Esto incluye servicios críticos como la página web, el punto de venta, las automatizaciones internas, y los servicios de comunicación interna y externa como internet y telefonía.
+
+2. **Asegurar la integridad de la información almacenada en nube o site**: Aunque el documento no proporciona detalles específicos sobre cómo se realiza esto, típicamente implicaría implementar y mantener medidas adecuadas de seguridad de la información, como cifrado, control de acceso, y backups regulares.
+
+3. **Asegurar el cumplimiento de proyectos del departamento en tiempo y forma**: Esto implica una gestión efectiva de proyectos para garantizar que se cumplan los plazos y END"}
+{"prompt": "¿Cómo debe el Gerente de TI gestionar el seguimiento de correos electrónicos? ->", "completion": "El Gerente de TI debe gestionar el seguimiento de correos electrónicos de la siguiente manera:
+
+1. **Revisión constante**: Es responsable de revisar constantemente su buzón de correo asignado.
+
+2. **Respuestas oportunas**: Debe dar respuestas a los seguimientos y solicitudes realizadas por correo electrónico.
+
+3. **Utilización de herramientas**: Para un mejor seguimiento de correos, es importante utilizar las herramientas que ofrece Outlook, como marcar correos.
+
+Estas acciones aseguran una gestión eficiente de la comunicación por correo electrónico, manteniendo al gerente informado y respondiendo de manera oportuna a las necesidades y solicitudes internas o externas. END"}
+{"prompt": "Describe las responsabilidades del Administrador de infraestructura en el equipo de TI. ->", "completion": "Las responsabilidades del Administrador de infraestructura en el equipo de Tecnologías de la Información incluyen:
+
+1. **Captura de incidencias**: Encargarse de registrar las incidencias técnicas que ocurren en la infraestructura tecnológica de la empresa.
+
+2. **Captura de bonos de indicadores**: Responsabilidad de capturar los indicadores clave relacionados con la infraestructura en el formato de cálculo de indicadores F.TIDS.006.
+
+3. **Cumplimiento de procedimiento soporte técnico**: Asegurar que todas las actividades de soporte técnico se realicen de acuerdo con el procedimiento establecido P.TIIN.001-2.
+
+4. **Cumplimiento de actividades asignadas**: Garantizar que todas las tareas y proyectos asignados al área de infraestructura se completen correctamente y a tiempo.
+
+5. **Definición de prioridades de actividades y END"}
+{"prompt": "¿Qué información se debe incluir en la entrega de resultados mensual? ->", "completion": "La entrega de resultados mensual realizada por el Gerente de TI debe incluir los siguientes elementos:
+
+1. **Indicadores generales del departamento:** Se deben presentar métricas y datos que reflejen el desempeño del departamento de TI en el período de tiempo considerado.
+
+2. **Objetivos a cumplir durante cada trimestre:** Debe proporcionarse una visión general de los objetivos establecidos para el trimestre en curso, permitiendo a la gerencia evaluar el progreso hacia estas metas.
+
+3. **Resultados de los objetivos del mes actual:** Se debe ofrecer un resumen detallado de los logros y resultados obtenidos con respecto a los objetivos específicos del mes en curso.
+
+4. **Puntos clave de la minuta enviada por la asistente de gerencia general:** Antes de la presentación, es crucial considerar y discutir los puntos clave detall END"}
+{"prompt": "¿Cómo se realiza la captura de incidencias en la plataforma intranet? ->", "completion": "La captura de incidencias se realiza el miércoles de cada semana en la plataforma intranet (https://inax.aytcloud.com/intranet/intra). El gerente de TI es responsable de solicitar a su equipo los formatos de permisos de puntualidad, vacaciones, citas médicas, entre otros permisos para su autorización, firma y captura en la plataforma, con el objetivo de que recursos humanos considere las incidencias para la nómina de la semana. END"}
+{"prompt": "Explica la relación entre el Gerente de TI y los indicadores de desempeño dentro del departamento. ->", "completion": "El Gerente de TI desempeña un papel crucial en la supervisión y gestión de los indicadores de desempeño dentro del departamento de Tecnologías de la Información. Basándonos en el texto, podemos observar varias maneras en las que el Gerente de TI interactúa con estos indicadores:
+
+1. **Captura de Indicadores**: El Gerente de TI es responsable de realizar la captura de los indicadores el primer miércoles de cada mes. Esto incluye recopilar el desempeño de cada uno de los integrantes del equipo de TI, lo cual se define en diferentes formatos como el F.TI005 para desarrollo de software y el F.TIDS.006 para infraestructura.
+
+2. **Entrega de Resultados**: De forma mensual, el Gerente de TI presenta los resultados del departamento en reuniones presenciales con la alta gerencia y otros gerentes de departamento. Dur END"}
