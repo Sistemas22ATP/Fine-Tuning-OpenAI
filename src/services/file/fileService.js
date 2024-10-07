@@ -71,7 +71,7 @@ async function UploadFile() {
         apiKey: process.env.OPENAI_API_KEY,
     });
 
-    const fileStream = fs.createReadStream("");
+    const fileStream = fs.createReadStream("src/shared/data-set.jsonl");
     const response = await openai.files.create({
         file: fileStream,
         purpose: 'fine-tune', 
