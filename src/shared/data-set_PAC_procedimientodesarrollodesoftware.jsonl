@@ -1,0 +1,119 @@
+{"prompt": "Describe el objetivo principal de este procedimiento de desarrollo de software ->", "completion": "El objetivo principal del procedimiento de desarrollo de software descrito en el texto es dar a conocer las actividades necesarias para llevar a cabo un nuevo desarrollo de software o la actualización del mismo, garantizando calidad en el proceso. END"}
+{"prompt": "¿A quiénes aplica el alcance de este procedimiento? Enumera los grupos de personal involucrados. ->", "completion": "El alcance del procedimiento de desarrollo de software aplica a los siguientes grupos de personal:
+
+1. **Todo el personal de Grupo Avance y Tecnología en Plásticos**, que cuente con un requerimiento o proyecto de desarrollo de software.
+2. **El personal del área de TI**, involucrado en el desarrollo de software. END"}
+{"prompt": "Explica qué es un Backlog en el contexto de un proyecto de software. ->", "completion": "Un Backlog en el contexto de un proyecto de software, como se describe en el texto proporcionado, es una lista de requerimientos solicitados que está ordenada por prioridades para el equipo de desarrollo. Esta lista se obtiene del RFP (Request for Proposal, o Solicitud de Propuesta, en español). El Backlog es fundamental en metodologías ágiles de desarrollo de software, como Scrum, ya que guía al equipo en cuanto a qué tareas deben abordarse y en qué orden, asegurando que se prioricen las necesidades más importantes del proyecto en cada iteración o sprint. END"}
+{"prompt": "Define qué es un RFP y su importancia en el proceso de desarrollo de software. ->", "completion": "Un RFP, según sus siglas en inglés que corresponden a "Request for Proposal" (Solicitud de Propuesta), es un documento crucial en el proceso de desarrollo de software. Este documento es elaborado internamente por una empresa con el objetivo de solicitar a diferentes proveedores que presenten sus mejores soluciones y presupuestos para satisfacer unas necesidades específicas detalladas en el RFP.
+
+La importancia del RFP en el proceso de desarrollo de software es significativa porque:
+
+1. **Claridad y dirección**: Proporciona una descripción detallada y objetiva del proyecto de desarrollo de software, incluyendo requerimientos específicos, alcance, y los resultados esperados. Esto ayuda a clarificar las expectativas entre la empresa y los proveedores o desarrolladores internos.
+
+2. **Comparación de propuestas**: Permite a la empresa evaluar y comparar diversas propuestas de varios proveedores de manera estructurada END"}
+{"prompt": "¿Qué es un Sprint y cuál es su duración típica según el procedimiento? ->", "completion": "Un sprint, según el procedimiento descrito en el texto, es un período breve de tiempo fijo en el cual un equipo de scrum trabaja para completar una cantidad establecida de trabajo. La duración típica de un sprint en este procedimiento es de 20 días hábiles. END"}
+{"prompt": "Indica las responsabilidades del usuario solicitante en el desarrollo de software. ->", "completion": "El usuario solicitante tiene las siguientes responsabilidades en el desarrollo de software según el procedimiento descrito:
+
+1. **Genera RFP (Request for Proposal)**: El usuario solicitante es responsable de llenar la plantilla de RFP detallando el requerimiento según las instrucciones proporcionadas.
+2. **Ordenar funciones por prioridad**: Debe analizar el backlog con las historias de usuario y organizar por prioridad las actividades más relevantes, asegurando que no se afecte la secuencia cronológica del proceso.
+3. **Revisión propuesta Sprint**: Evaluar si las funciones seleccionadas para el sprint cubren las necesidades más importantes y dar retroalimentación al coordinador de desarrollo para posibles ajustes.
+4. **Demostración**: Participar en las reuniones de demostración para verificar que el desarrollo cumple con todos los puntos establecidos en el sprint.
+5. **Constancia de END"}
+{"prompt": "Describe las actividades que debe realizar un desarrollador Sr durante un proyecto. ->", "completion": "Durante un proyecto, un desarrollador Sr tiene varias responsabilidades clave según el procedimiento de desarrollo de software P.TIDS.001-2. Estas actividades incluyen:
+
+1. **Programación**: El Desarrollador Sr es responsable de la codificación efectiva del software, asegurándose de seguir las especificaciones y estándares establecidos.
+
+2. **Validación de funciones**: Una vez programadas las funciones, el Desarrollador Sr debe validar que estas cumplan con los criterios de aceptación especificados en el RFP y cumplan con las necesidades del proyecto.
+
+3. **Demostración**: Debe participar activamente en las demostraciones, mostrando cómo las funcionalidades desarrolladas cumplen con los requisitos del proyecto. Esto incluye recrear los casos de uso definidos para asegurar que el desarrollo se alinea con lo establecido en el sprint.
+
+4. **Generar Entregables END"}
+{"prompt": "¿Cuál es el papel del coordinador de desarrollo en la creación del Backlog? ->", "completion": "El coordinador de desarrollo tiene las siguientes responsabilidades en la creación del Backlog según el procedimiento de desarrollo de software descrito:
+
+1. **Conversión del RFP en historias de usuario**: El coordinador de desarrollo convierte la Solicitud de Propuesta (RFP) en historias de usuario específicas. Cada historia de usuario debe contener descripciones claras de quién realiza la actividad, qué debe hacer y por qué se debe hacer.
+
+2. **Definición de criterios de aceptación**: Estas historias de usuario incluyen una lista de criterios de aceptación, que son requisitos específicos que deben cumplirse para considerar que la historia de usuario está completa.
+
+3. **Envío del backlog para revisión**: Una vez creado el backlog con las historias de usuario, el coordinador de desarrollo tiene hasta cinco días hábiles para enviar este backlog al usuario solicitante para su revisión y validación. END"}
+{"prompt": "Explica cómo el usuario solicitante organiza las funciones por prioridad en el Backlog. ->", "completion": "El usuario solicitante organiza las funciones por prioridad en el Backlog siguiendo la siguiente metodología detallada en la sección 5.4 del procedimiento:
+
+1. **Análisis del Backlog**: El usuario solicitante primero revisa el backlog que contiene las historias de usuario desarrolladas y detalladas por el coordinador de desarrollo, basadas en el RFP (Solicitud de Propuesta).
+
+2. **Organización por Prioridad**: Luego, el usuario solicitante prioriza las actividades. Este proceso implica analizar cuáles son las más críticas o relevantes para el proyecto, asegurándose de que se consideren primero durante los sprints.
+
+3. **Consideración de la Secuencia Cronológica**: Es esencial que el usuario solicitante también tenga en cuenta la secuencia cronológica de las funciones. Esto significa que si una función depende de la realización previa de otra, esta END"}
+{"prompt": "Describe el proceso de revisión de un RFP. ¿Qué se debe asegurar el coordinador de desarrollo? ->", "completion": "El proceso de revisión de un RFP, según el texto, implica varios pasos críticos que debe asegurar el coordinador de desarrollo. Este proceso se detalla a continuación:
+
+1. **Generación de RFP (5.1 Genera RFP):**
+   - El usuario solicitante es responsable del llenado de la plantilla de RFP detallando el requerimiento conforme a las instrucciones. Si durante la revisión el coordinador de desarrollo necesita más información, el usuario solicitante debe actualizar el documento en un período máximo de 5 días hábiles.
+
+2. **Revisión de RFP (5.2 Revisión de RFP):**
+   - El coordinador de desarrollo debe revisar el RFP asegurando lo siguiente:
+     - Que el RFP cuente con una descripción detallada y objetiva del proceso completo requerido para el desarrollo.
+     - Claridad en el alcance del END"}
+{"prompt": "¿Cuáles son los pasos a seguir después de definir un Sprint? ->", "completion": "Después de definir un Sprint, los pasos a seguir en el procedimiento de desarrollo de software, de acuerdo con el documento proporcionado, son los siguientes:
+
+1. **Revisión Propuesta Sprint** (Actividad 5.6):
+   - El usuario solicitante evalúa si las funciones comprendidas en el sprint cubren la necesidad más importante.
+   - Si las funciones son adecuadas, se procede a la siguiente actividad.
+   - En caso contrario, es necesario reevaluar el orden de las actividades en el backlog y regresar a la actividad 5.5 "Definir Sprint".
+
+2. **Preparar Ambiente de Desarrollo** (Actividad 5.7):
+   - El coordinador de desarrollo prepara el ambiente de desarrollo conforme al procedimiento establecido.
+   - El tiempo máximo para la preparación del ambiente una vez autorizado el sprint es de 24 horas.
+   - Una vez preparado el END"}
+{"prompt": "Explica el proceso de preparación del ambiente de desarrollo y su plazo máximo. ->", "completion": "El proceso de preparación del ambiente de desarrollo según el procedimiento detallado en el texto es coordinado por el coordinador de desarrollo. Una vez que se ha autorizado el sprint, el coordinador ejecuta las actividades relacionadas con la preparación del ambiente de desarrollo. Este proceso debe ser completado en un plazo máximo de 24 horas después de que se haya autorizado el sprint. El coordinador también es responsable de informar al equipo de desarrollo que el ambiente está listo para iniciar con el proyecto. END"}
+{"prompt": "¿Qué acciones debe llevar a cabo el equipo de desarrollo asignado durante la programación? ->", "completion": "Durante la programación, el equipo de desarrollo asignado debe llevar a cabo las siguientes acciones, conforme a los detalles proporcionados en el procedimiento de desarrollo de software P.TIDS.001-2:
+
+1. **Ejecución de Actividades Según Procedimiento de Programación (P.TIDS.004):** El equipo de desarrollo debe seguir las directrices y los pasos establecidos en el procedimiento de programación P.TIDS.004. Esto incluye preparar y escribir el código necesario para las funciones y requisitos detallados en el RFP y el backlog.
+
+2. **Validación de Funciones:** Después de programar las funciones, deben validar que estas funcionen correctamente y cumplan con lo estipulado en el RFP. Estas validaciones son cruciales para asegurarse de que el desarrollo del software avanza de acuerdo con los requerimientos esperados.
+
+3. **Generación de Entregables:** El END"}
+{"prompt": "Detalla el proceso de validación de funciones tras completar el procedimiento de programación. ->", "completion": "El proceso de validación de funciones después de completar el procedimiento de programación, según el procedimiento de desarrollo de software P.TIDS.001-2, se lleva a cabo de la siguiente manera:
+
+1. **Validación de Funciones (Actividad 5.9)**:
+   - **Responsable**: El coordinador de desarrollo es quien lleva a cabo esta actividad.
+   - **Procedimiento**: La validación de funciones se realiza utilizando como guía los ejemplos definidos en el RFP (Solicitud de Propuesta). Esto implica verificar si las funciones programadas durante el sprint cumplen con los requisitos y expectativas establecidos en el RFP.
+   - **Proceso**: Después de que el equipo de desarrollo completa la programación de las funciones dentro del sprint, siguiendo el procedimiento de programación detallado en el documento P.TIDS.004, el coordinador de desarrollo procede a la END"}
+{"prompt": "¿Qué es una demostración y cuál es su importancia en el proceso de desarrollo? ->", "completion": "En el procedimiento de desarrollo de software descrito en el texto, una "demostración" se refiere a una reunión en la que todos los involucrados en el proyecto se reúnen para revisar el trabajo realizado hasta el momento. Durante esta demostración, se recrean los casos de uso definidos en el RFP (Solicitud de Propuesta) para verificar que el desarrollo cumple con todos los puntos establecidos en el sprint específico.
+
+La importancia de la demostración en el proceso de desarrollo de software radica en varios aspectos críticos:
+
+1. **Validación de Requerimientos**: Permite confirmar que las funcionalidades desarrolladas cumplen con las especificaciones y necesidades del usuario final, según lo descrito en el RFP y las historias de usuario.
+
+2. **Retroalimentación Temprana**: Ofrece la oportunidad de recibir comentarios y observaciones de los usuarios END"}
+{"prompt": "Explica qué se incluye en la constancia de entrega de sprint y quiénes deben firmarla. ->", "completion": "La constancia de entrega de sprint incluye la aprobación de cada actividad probada en la demostración, señalando los cambios o faltantes necesarios para el siguiente sprint. Debe ser firmada por el coordinador de desarrollo y el usuario solicitante, tal como se indica en la sección 5.12 del procedimiento de desarrollo de software. END"}
+{"prompt": "Describe el proceso de Deploy y su horario recomendado. ->", "completion": "El proceso de Deploy, según el texto del procedimiento de desarrollo de software P.TIDS.001-2, es llevado a cabo por el Desarrollador Sr. Consiste en la publicación de los cambios generados durante el sprint en el servidor de producción. Según la sección 5.13 del procedimiento, la publicación del Deploy se recomendada realizarlo en horario no laboral para evitar interrupciones o inconvenientes durante las horas de trabajo regulares. END"}
+{"prompt": "¿Qué sanciones pueden enfrentarse los usuarios que incumplan con este procedimiento? ->", "completion": "Los usuarios que incumplan con el procedimiento establecido en el documento pueden enfrentar las siguientes sanciones, según la naturaleza del impacto:
+
+1. **Constancia de hechos:** Se documenta una falta o incumplimiento de manera formal.
+2. **Acta administrativa:** Se realiza un registro administrativo detallando el incumplimiento.
+3. **Baja laboral inmediata:** Dependiendo de la gravedad del incumplimiento, el usuario puede ser despedido de manera inmediata.
+
+Estas sanciones están estipuladas conforme a las políticas internas de la empresa y las leyes aplicables. END"}
+{"prompt": "Enumera los entregables que se generan a lo largo del proceso de desarrollo de software. ->", "completion": "Los entregables que se generan a lo largo del proceso de desarrollo de software según el procedimiento son:
+
+1. RFP (Request for Proposal)
+2. Anexo de historias de usuario
+3. Versión actualizada del acta constitutiva del proyecto
+4. Constancia de entrega de sprint END"}
+{"prompt": "¿Qué métricas se utilizan para evaluar el progreso de los proyectos asignados? ->", "completion": "Las métricas utilizadas para evaluar el progreso de los proyectos asignados son:
+
+1. Proyectos asignados
+2. Proyectos con atraso
+3. Proyectos en desarrollo
+4. Proyectos rechazados
+5. Proyectos finalizados a tiempo END"}
+{"prompt": "¿Qué documentos de referencia son mencionados en este procedimiento? ->", "completion": "Los documentos de referencia mencionados en el procedimiento de desarrollo de software son:
+
+- P.TIDS.004 Procedimiento de Programación.
+- P.TIDS.003 Procedimiento de Ambiente de Desarrollo. END"}
+{"prompt": "Explica el control de cambios que se ha aplicado a este procedimiento. ¿Qué modificaciones se realizaron en la revisión del 01/08/2024? ->", "completion": "En la revisión del 01/08/2024 del procedimiento de desarrollo de software P.TIDS.001-2, se realizaron las siguientes modificaciones:
+
+1. Se agregó la condición “¿Es corrección?”.
+2. Se incluyó un nuevo punto, el punto 15, titulado “PROGRAMACIÓN”.
+3. Se introdujo la condición “¿Aplica a una colección de aplicaciones?”.
+4. Se realizó una actualización de la nomenclatura utilizada en el documento.
+
+Estos cambios indican ajustes para clarificar el proceso de desarrollo, así como para adecuar el procedimiento a escenarios específicos como correcciones y aplicaciones múltiples, además de actualizar terminologías para posiblemente alinearse con nuevas normativas o estándares internos. END"}

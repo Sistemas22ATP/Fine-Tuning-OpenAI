@@ -7,7 +7,7 @@ async function TransformData() {
         apiKey: process.env.OPENAI_API_KEY,
     });
     
-    const pdfBuffer = fs.readFileSync("src/shared/202406281441230174.pdf");
+    const pdfBuffer = fs.readFileSync("src/shared/202408012132082488.pdf");
     const pdfData = await pdf(pdfBuffer);
     
     const productInfo = pdfData.text;
@@ -15,28 +15,28 @@ async function TransformData() {
     console.log(productInfo);
 
     const qaPairs = [
-        "Proporciona un resumen del objetivo del procedimiento para dar de alta una sección de nuevo producto en la página web.",
-        "¿Qué roles están involucrados en el alcance del procedimiento y cuáles son sus responsabilidades?",
-        "Define 'BackOffice' en el contexto del e-commerce según el documento.",
-        "¿Qué es un 'E-Commerce' y qué funciones principales tiene en el procedimiento?",
-        "Explica qué es el formato de imágenes webp y su importancia en la creación de secciones de productos.",
-        "Describe la responsabilidad del Desarrollador Junior en el proceso de alta de nuevos productos.",
-        "¿Qué información debe enviar el Desarrollador de Negocios e Innovación al solicitar la creación de un nuevo producto?",
-        "¿Cómo debe proceder el Desarrollador Junior si la solicitud recibida no cuenta con toda la información necesaria?",
-        "Detalla los pasos que debe seguir el Desarrollador Junior para crear una nueva sección en el BackOffice.",
-        "¿Qué acciones debe tomar el Desarrollador de Negocios e Innovación tras recibir el enlace de la nueva sección para su revisión?",
-        "Enumera las posibles respuestas que el Desarrollador de Negocios e Innovación puede dar después de revisar la nueva sección.",
-        "Describe el proceso de habilitación de la nueva sección una vez que ha sido autorizada.",
-        "¿Qué información debe validar el Desarrollador Junior después de habilitar la nueva sección?",
-        "Explica el procedimiento para que el Supervisor de E-Commerce valide la información de la nueva sección.",
-        "¿Qué sanciones se mencionan en el documento por incumplimiento del procedimiento?",
-        "Detalla los entregables esperados al finalizar el proceso de alta de un nuevo producto.",
-        "¿Cuáles son las métricas de tiempo establecidas para el alta de la sección del nuevo producto?",
-        "¿Qué documento se menciona como referencia para el procedimiento de alta de producto nuevo en la página web?",
-        "Proporciona ejemplos de información que se debe incluir en la ficha técnica comprimida.",
-        "¿Cómo se debe comunicar el alta de un nuevo producto al equipo involucrado?",
-        "Describe las características principales que deben mostrarse en el título del nuevo producto.",
-        "¿Qué materiales gráficos son requeridos por el departamento de Mercadotecnia para la alta de la sección del nuevo producto?"
+        "Describe el objetivo principal de este procedimiento de desarrollo de software",
+        "¿A quiénes aplica el alcance de este procedimiento? Enumera los grupos de personal involucrados.",
+        "Explica qué es un Backlog en el contexto de un proyecto de software.",
+        "Define qué es un RFP y su importancia en el proceso de desarrollo de software.",
+        "¿Qué es un Sprint y cuál es su duración típica según el procedimiento?",
+        "Indica las responsabilidades del usuario solicitante en el desarrollo de software.",
+        "Describe las actividades que debe realizar un desarrollador Sr durante un proyecto.",
+        "¿Cuál es el papel del coordinador de desarrollo en la creación del Backlog?",
+        "Explica cómo el usuario solicitante organiza las funciones por prioridad en el Backlog.",
+        "Describe el proceso de revisión de un RFP. ¿Qué se debe asegurar el coordinador de desarrollo?",
+        "¿Cuáles son los pasos a seguir después de definir un Sprint?",
+        "Explica el proceso de preparación del ambiente de desarrollo y su plazo máximo.",
+        "¿Qué acciones debe llevar a cabo el equipo de desarrollo asignado durante la programación?",
+        "Detalla el proceso de validación de funciones tras completar el procedimiento de programación.",
+        "¿Qué es una demostración y cuál es su importancia en el proceso de desarrollo?",
+        "Explica qué se incluye en la constancia de entrega de sprint y quiénes deben firmarla.",
+        "Describe el proceso de Deploy y su horario recomendado.",
+        "¿Qué sanciones pueden enfrentarse los usuarios que incumplan con este procedimiento?",
+        "Enumera los entregables que se generan a lo largo del proceso de desarrollo de software.",
+        "¿Qué métricas se utilizan para evaluar el progreso de los proyectos asignados?",
+        "¿Qué documentos de referencia son mencionados en este procedimiento?",
+        "Explica el control de cambios que se ha aplicado a este procedimiento. ¿Qué modificaciones se realizaron en la revisión del 01/08/2024?"
     ];
 
     for (const question of qaPairs) {
