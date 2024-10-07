@@ -7,7 +7,7 @@ async function TransformData() {
         apiKey: process.env.OPENAI_API_KEY,
     });
     
-    const pdfBuffer = fs.readFileSync("src/shared/202403052204530809.pdf");
+    const pdfBuffer = fs.readFileSync("src/shared/202406281441230174.pdf");
     const pdfData = await pdf(pdfBuffer);
     
     const productInfo = pdfData.text;
@@ -15,28 +15,28 @@ async function TransformData() {
     console.log(productInfo);
 
     const qaPairs = [
-        "¿Cuál es el objetivo principal del Desarrollador de Power BI según el documento?",
-        "Describe el alcance de las actividades que se espera que realice el Desarrollador de Power BI.",
-        "¿Qué significa BI en el contexto de este documento?",
-        "Explica brevemente qué es Dynamics 365 F&O y su función en la gestión empresarial.",
-        "¿Cuál es la función de Jira como sistema de tickets dentro del área de TI?",
-        "Define el concepto de Tecnologías de Información (TI) y su importancia en las empresas.",
-        "¿Qué es un ticket y en qué situaciones se utiliza en la gestión de TI?",
-        "¿Cómo se define SCRUM y cuáles son sus componentes clave en el desarrollo de software?",
-        "¿Qué implica la actividad de seguimiento de proyectos asignados para un Desarrollador de Power BI?",
-        "¿Qué se espera lograr al monitorear el progreso de los proyectos asignados?",
-        "Describe el proceso que se sigue durante el levantamiento de requerimientos en el desarrollo de software.",
-        "¿Cuál es la importancia de entender las necesidades del usuario antes de iniciar el desarrollo de una solución?",
-        "¿Cómo se relaciona el desarrollo de informes con las solicitudes generadas por los usuarios?",
-        "¿Qué pasos se deben seguir para garantizar la entrega exitosa de los resultados esperados por el usuario solicitante?",
-        "¿Qué referencia se menciona para el desarrollo de software en el documento?",
-        "¿Qué actividades específicas se incluyen en el rol del Desarrollador de Power BI?",
-        "¿Por qué es importante la comunicación con los miembros del equipo en el seguimiento de proyectos?",
-        "¿Cómo se pueden identificar y resolver problemas o desviaciones en el avance de un proyecto?",
-        "¿Qué es un sprint en el contexto de SCRUM y cómo se relaciona con la entrega de valor?",
-        "¿Cómo contribuye el Desarrollador de Power BI al avance de la misión y visión empresarial?",
-        "¿Qué herramientas o recursos se pueden utilizar para el procesamiento y almacenamiento de información en TI?",
-        "¿Cuál es el papel de los usuarios clave en el seguimiento de proyectos asignados?"
+        "Proporciona un resumen del objetivo del procedimiento para dar de alta una sección de nuevo producto en la página web.",
+        "¿Qué roles están involucrados en el alcance del procedimiento y cuáles son sus responsabilidades?",
+        "Define 'BackOffice' en el contexto del e-commerce según el documento.",
+        "¿Qué es un 'E-Commerce' y qué funciones principales tiene en el procedimiento?",
+        "Explica qué es el formato de imágenes webp y su importancia en la creación de secciones de productos.",
+        "Describe la responsabilidad del Desarrollador Junior en el proceso de alta de nuevos productos.",
+        "¿Qué información debe enviar el Desarrollador de Negocios e Innovación al solicitar la creación de un nuevo producto?",
+        "¿Cómo debe proceder el Desarrollador Junior si la solicitud recibida no cuenta con toda la información necesaria?",
+        "Detalla los pasos que debe seguir el Desarrollador Junior para crear una nueva sección en el BackOffice.",
+        "¿Qué acciones debe tomar el Desarrollador de Negocios e Innovación tras recibir el enlace de la nueva sección para su revisión?",
+        "Enumera las posibles respuestas que el Desarrollador de Negocios e Innovación puede dar después de revisar la nueva sección.",
+        "Describe el proceso de habilitación de la nueva sección una vez que ha sido autorizada.",
+        "¿Qué información debe validar el Desarrollador Junior después de habilitar la nueva sección?",
+        "Explica el procedimiento para que el Supervisor de E-Commerce valide la información de la nueva sección.",
+        "¿Qué sanciones se mencionan en el documento por incumplimiento del procedimiento?",
+        "Detalla los entregables esperados al finalizar el proceso de alta de un nuevo producto.",
+        "¿Cuáles son las métricas de tiempo establecidas para el alta de la sección del nuevo producto?",
+        "¿Qué documento se menciona como referencia para el procedimiento de alta de producto nuevo en la página web?",
+        "Proporciona ejemplos de información que se debe incluir en la ficha técnica comprimida.",
+        "¿Cómo se debe comunicar el alta de un nuevo producto al equipo involucrado?",
+        "Describe las características principales que deben mostrarse en el título del nuevo producto.",
+        "¿Qué materiales gráficos son requeridos por el departamento de Mercadotecnia para la alta de la sección del nuevo producto?"
     ];
 
     for (const question of qaPairs) {

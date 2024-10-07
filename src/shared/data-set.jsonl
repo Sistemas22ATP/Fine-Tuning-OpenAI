@@ -1,0 +1,120 @@
+{"prompt": "Proporciona un resumen del objetivo del procedimiento para dar de alta una sección de nuevo producto en la página web. ->", "completion": "El objetivo del procedimiento para dar de alta una sección de nuevo producto en la página web es definir los pasos a seguir para realizar correctamente la inclusión de un nuevo producto en la sección de e-commerce de la página web de Avance y Tecnología en Plásticos. Esto incluye la solicitud de creación del producto, la verificación y validación de la información proporcionada, el alta del producto en el sistema utilizando herramientas específicas como BackOffice y Prestashop, y finalmente la revisión y autorización de la nueva sección del producto antes de su publicación oficial. END"}
+{"prompt": "¿Qué roles están involucrados en el alcance del procedimiento y cuáles son sus responsabilidades? ->", "completion": "En el alcance del procedimiento "Alta de nuevos productos" están involucrados los siguientes roles y responsabilidades:
+
+1. **Coordinador DNEI**: No se especifica en el texto sus responsabilidades directas dentro del procedimiento.
+
+2. **Supervisor E-Commerce**:
+   - Responsable de recibir y revisar el email enviado por el Desarrollador de Negocios e Innovación con la solicitud para el alta del nuevo producto.
+   - Valida que la información de la sección del nuevo producto sea correcta y cuente con toda la información requerida que aparece en el sistema Inax y confirma por correo electrónico al Desarrollador de Negocios e Innovación.
+
+3. **Desarrollador Jr.** (Dev Jr.):
+   - Responsable de dar de alta los productos nuevos que le son solicitados por correo electrónico por parte del Desarrollador de Negocios e Innov END"}
+{"prompt": "Define 'BackOffice' en el contexto del e-commerce según el documento. ->", "completion": "En el contexto del e-commerce según el documento, 'BackOffice' se define como una herramienta de administración del E-Commerce contenida dentro de PrestaShop. Esta herramienta administra tanto las ventas como las configuraciones necesarias para el correcto funcionamiento de PrestaShop. END"}
+{"prompt": "¿Qué es un 'E-Commerce' y qué funciones principales tiene en el procedimiento? ->", "completion": "Un 'E-Commerce', según el texto, se define como una plataforma para ventas de múltiples artículos en línea. En el contexto del procedimiento descrito en el documento para el alta de nuevos productos, el E-Commerce tiene varias funciones clave:
+
+1. **Plataforma de Gestión**: Utiliza específicamente Prestashop, que es una plataforma de gestión de contenidos diseñada para la creación y administración de comercios electrónicos o E-Commerce. Esto implica que Prestashop permite al E-Commerce realizar diversas actividades administrativas y de gestión, tales como las ventas y configuraciones necesarias para su correcto funcionamiento.
+
+2. **Administración del BackOffice**: Dentro del E-Commerce, existe una herramienta de administración conocida como 'BackOffice'. Esta herramienta es una parte integral de Prestashop y se encarga de tanto las ventas como las configuraciones necesarias para el funcionamiento ópt END"}
+{"prompt": "Explica qué es el formato de imágenes webp y su importancia en la creación de secciones de productos. ->", "completion": "El formato de imágenes webp es un formato de imágenes de última generación diseñado para comprimir el peso de las imágenes sin que pierdan calidad. Esta característica es crucial para el rendimiento de las páginas web, pues permite que estas carguen más rápidamente incluso si contienen múltiples imágenes de alta calidad. En la creación de secciones de productos en un sitio de e-commerce, utilizar el formato webp es especialmente ventajoso, ya que mejora la experiencia del usuario al reducir el tiempo de espera para que la página se cargue completamente. Esto es particularmente importante en un contexto de comercio electrónico, donde la experiencia del usuario puede influir directamente en la tasa de conversión y satisfacción del cliente. Además, las páginas que cargan más rápido pueden ser mejor valoradas por los motores de búsqueda, lo que potencialmente mejora la visibilidad del sitio y atrae a un mayor número de visitantes END"}
+{"prompt": "Describe la responsabilidad del Desarrollador Junior en el proceso de alta de nuevos productos. ->", "completion": "La responsabilidad del Desarrollador Junior (Dev Jr.) en el proceso de alta de nuevos productos, según el procedimiento P.TIDS.005-1, incluye varias tareas esenciales:
+
+1. **Recepción de Solicitud:**
+   - El Dev Jr. recibe por correo electrónico la solicitud de alta del nuevo producto enviada por el Desarrollador de Negocios e Innovación. Esta solicitud incluye toda la información necesaria para la creación de la sección del producto en la página web, como ficha técnica, palabras clave, categoría, características principales, SKU, dimensiones, peso, y material gráfico.
+
+2. **Validación de Información:**
+   - El Dev Jr. debe validar que la solicitud recibida contiene toda la información necesaria para proceder con la creación web del nuevo producto en el sitio de Avance y Tecnología en Plásticos. Si falta alguna información, debe solic END"}
+{"prompt": "¿Qué información debe enviar el Desarrollador de Negocios e Innovación al solicitar la creación de un nuevo producto? ->", "completion": "El Desarrollador de Negocios e Innovación debe enviar la siguiente información al solicitar la creación de un nuevo producto:
+
+- Ficha técnica comprimida.
+- Palabras clave más comunes.
+- Lista de productos relacionados.
+- Categoría a donde corresponde el producto.
+- Características principales para mostrar en el título.
+- SKU de cada combinación.
+- Dimensiones y peso del producto.
+- Material gráfico (fotos e imágenes).
+- Unidad de venta. 
+
+Esta información debe ser enviada por correo electrónico al desarrollador asignado para la creación de la sección en ecommerce. END"}
+{"prompt": "¿Cómo debe proceder el Desarrollador Junior si la solicitud recibida no cuenta con toda la información necesaria? ->", "completion": "Si la solicitud recibida por el Desarrollador Junior no cuenta con toda la información necesaria para la creación de la sección del nuevo producto en la página web, el procedimiento a seguir se detalla en la actividad 5.3 del documento:
+
+1. El Desarrollador Junior debe validar la solicitud recibida por correo electrónico por parte del Desarrollador de Negocios e Innovación para asegurarse de que contenga toda la información requerida.
+2. Si no se cuenta con todos los requerimientos necesarios para crear la sección, el procedimiento indica que no se continúa con la creación de la nueva sección. En su lugar:
+   - Se solicitarán los requerimientos faltantes al Desarrollador de Negocios e Innovación.
+   - El Desarrollador de Negocios e Innovación deberá atender la solicitud en un lapso no mayor a 24 horas.
+3. Una END"}
+{"prompt": "Detalla los pasos que debe seguir el Desarrollador Junior para crear una nueva sección en el BackOffice. ->", "completion": "Los pasos que debe seguir el Desarrollador Junior para crear una nueva sección en el BackOffice según el procedimiento "Alta de nuevos productos" descrito en el documento, son los siguientes:
+
+1. **Recibir la solicitud**: 
+   - El Desarrollador de Negocios e Innovación envía un correo electrónico con la solicitud de alta del nuevo producto, incluyendo todos los requerimientos necesarios como la ficha técnica, palabras clave, lista de productos relacionados, categoría, características principales, SKU de cada combinación, dimensiones, peso y material gráfico.
+
+2. **Validar la información**:
+   - Validar que la solicitud recibida contenga toda la información necesaria para la creación de la sección del nuevo producto en la página web de "Avance y Tecnología en Plásticos". 
+   - Si falta información, se solicita al Desarrollador de Negocios e Innovación END"}
+{"prompt": "¿Qué acciones debe tomar el Desarrollador de Negocios e Innovación tras recibir el enlace de la nueva sección para su revisión? ->", "completion": "Tras recibir el enlace de la nueva sección para su revisión, el Desarrollador de Negocios e Innovación debe realizar las siguientes acciones:
+
+1. Revisar la nueva sección: El Desarrollador de Negocios e Innovación necesita revisar el correo electrónico recibido que contiene el enlace de la nueva sección para asegurarse de que todo está en orden y cumple con los requerimientos establecidos.
+
+2. Decidir si la sección es autorizable o no:
+   - Si la sección cumple con todos los requisitos y está correcta, debe autorizar la sección para que continúe el proceso hacia la publicación.
+   - Si la sección no cumple con los requisitos o necesita modificaciones, debe responder al correo solicitando las modificaciones necesarias y detallar qué cambios son precisos para cumplir con los estándares requeridos. 
+
+3. Retroal END"}
+{"prompt": "Enumera las posibles respuestas que el Desarrollador de Negocios e Innovación puede dar después de revisar la nueva sección. ->", "completion": "Después de revisar la nueva sección, el Desarrollador de Negocios e Innovación puede dar las siguientes respuestas:
+
+1. Si la sección es autorizada: Continúa en la actividad 5.7 SE HABILITA LA SECCIÓN.
+2. No, si la sección no está autorizada: El Desarrollador de Negocios e Innovación responde el correo solicitando las modificaciones necesarias. Se regresa a la actividad 5.4 SE CREA LA NUEVA SECCIÓN. END"}
+{"prompt": "Describe el proceso de habilitación de la nueva sección una vez que ha sido autorizada. ->", "completion": "Una vez que la nueva sección ha sido autorizada, el proceso de habilitación sigue los siguientes pasos según el procedimiento descrito:
+
+**5.7 Se habilita la sección**
+- **5.7.1** El Desarrollador Jr. (Dev. Jr.) procede a publicar la nueva sección en la página web siguiendo las instrucciones detalladas en el "Instructivo de alta de producto nuevo en página web" (I.TIDS.003), específicamente en el punto 5.3.3.
+
+**5.8 Se confirma el alta de nuevo producto**
+- **5.8.1** Una vez habilitada la sección, el Dev. Jr. envía una respuesta por correo electrónico a manera de confirmación de que la sección está operativa. En este correo, copia tanto al Desarrollador de Negocios e Innovación como al Supervisor de E-commerce END"}
+{"prompt": "¿Qué información debe validar el Desarrollador Junior después de habilitar la nueva sección? ->", "completion": "Después de habilitar la nueva sección, el Desarrollador Junior debe validar la siguiente información:
+
+5.9 Validar información de la sección:
+- Que la alta del producto se haya realizado correctamente.
+- Confirmación por correo al Desarrollador de Negocios e Innovación sobre la correcta habilitación de la sección.
+
+También, el supervisor e-commerce debe realizar validaciones adicionales:
+- Confirmar que la información de la sección esté correcta y que incluya todos los datos solicitados.
+- Verificar que la información aparezca correctamente en el sistema Inax.
+- Confirmar por correo electrónico al Desarrollador de Negocios e Innovación que la información de la sección está correcta. END"}
+{"prompt": "Explica el procedimiento para que el Supervisor de E-Commerce valide la información de la nueva sección. ->", "completion": "El Supervisor de E-Commerce tiene un papel específico en el procedimiento de validación de la información de la nueva sección de productos en la página web según el documento del procedimiento de alta de nuevos productos. Según las actividades descritas en el texto, el proceso de validación por parte del Supervisor de E-Commerce se lleva a cabo de la siguiente manera:
+
+1. **Recepción del Correo Electrónico**: El Supervisor de E-Commerce recibe un correo electrónico enviado por el Desarrollador de Negocios e Innovación, con copia al Desarrollador Jr. (Dev. Jr.). Este correo contiene el enlace de la nueva sección para revisión y autorización.
+
+2. **Validación de la Información de la Sección**:
+   - **5.9.1**: El Dev. Jr. ha habilitado la sección en la página web tras recibir autorización (de acuerdo con las actividades END"}
+{"prompt": "¿Qué sanciones se mencionan en el documento por incumplimiento del procedimiento? ->", "completion": "Las sanciones mencionadas en el documento por incumplimiento del procedimiento son:
+
+1. Constancia de hechos.
+2. Acta administrativa.
+3. Baja laboral inmediata. END"}
+{"prompt": "Detalla los entregables esperados al finalizar el proceso de alta de un nuevo producto. ->", "completion": "Los entregables esperados al finalizar el proceso de alta de un nuevo producto, según el procedimiento P.TIDS.005-1, son:
+
+7.0 Entregables
+- 7.1 Sección web del nuevo producto END"}
+{"prompt": "¿Cuáles son las métricas de tiempo establecidas para el alta de la sección del nuevo producto? ->", "completion": "Las métricas de tiempo establecidas para el alta de la sección del nuevo producto indican que el lapso para el alta de la sección del nuevo producto no debe ser mayor a 24 horas laborales a partir de contar con todo el material requerido para crear la sección solicitada. END"}
+{"prompt": "¿Qué documento se menciona como referencia para el procedimiento de alta de producto nuevo en la página web? ->", "completion": "El documento mencionado como referencia para el procedimiento de alta de producto nuevo en la página web es el Instructivo de alta de producto nuevo en página web I.TIDS.003. END"}
+{"prompt": "Proporciona ejemplos de información que se debe incluir en la ficha técnica comprimida. ->", "completion": "En el procedimiento "Alta de nuevos productos", especifica que cuando se solicita la creación de un nuevo producto para la página web, se debe anexar una "ficha técnica comprimida". Aunque el texto no detalla específicamente qué debe contener dicha ficha técnica comprimida, comúnmente este tipo de documentos incluyen la siguiente información esencial sobre el producto:
+
+1. **Nombre del Producto**: La denominación oficial o comercial del producto.
+2. **Categoría a donde corresponde**: Clasificación del producto según su tipo o función dentro de la gama ofrecida.
+3. **Características principales para mostrar en título**: Los aspectos más destacados del producto que serán visibles en el título en la página del producto.
+4. **Sku de cada combinación**: Los códigos de stock mantenidos para las variantes del producto, si las hay (como diferentes tamaños o END"}
+{"prompt": "¿Cómo se debe comunicar el alta de un nuevo producto al equipo involucrado? ->", "completion": "Para comunicar el alta de un nuevo producto al equipo involucrado, según el procedimiento descrito en el documento, los pasos son los siguientes:
+
+1. **Solicita la creación de un nuevo producto:**
+   - El Desarrollador de Negocios e Innovación envía un correo electrónico solicitando el alta del nuevo producto en la página web. Este correo debe incluir todos los requerimientos necesarios para la creación de la sección, como ficha técnica comprimida, palabras clave, lista de productos relacionados, categorías, características principales, sku de cada combinación, dimensiones y peso, material gráfico y unidad de venta.
+
+2. **Recibir solicitud por correo electrónico:**
+   - El correo con la solicitud es recibido por el Supervisor de E-Commerce y se copia al Desarrollador Jr.
+
+3. **Validar la información:**
+   - El Desarrollador Jr. valida que END"}
+{"prompt": "Describe las características principales que deben mostrarse en el título del nuevo producto. ->", "completion": "Las características principales que deben mostrarse en el título del nuevo producto son las siguientes:
+
+- Características principales para mostrar en título. END"}
+{"prompt": "¿Qué materiales gráficos son requeridos por el departamento de Mercadotecnia para la alta de la sección del nuevo producto? ->", "completion": "Los materiales gráficos requeridos por el departamento de Mercadotecnia para la alta de la sección del nuevo producto incluyen fotos e imágenes. Estos deben ser entregados como parte del proceso para el alta del nuevo producto en la sección de ecommerce. END"}
