@@ -7,7 +7,15 @@ async function TransformData() {
         apiKey: process.env.OPENAI_API_KEY,
     });
     
-    const pdfBuffer = fs.readFileSync("src/shared/202409182226312576.pdf");
+    const pdfBuffer = fs.readFileSync(
+        "src/shared/202409182226312576.pdf", 
+        "src/shared/202408121854108846.pdf", 
+        "src/shared/202408061658530486.pdf", 
+        "src/shared/202408061655494402.pdf", 
+        "src/shared/202408012132082488.pdf", 
+        "src/shared/202406281441230174.pdf",
+        "src/shared/202403052204530809.pdf"
+    );
     const pdfData = await pdf(pdfBuffer);
     
     const productInfo = pdfData.text;
