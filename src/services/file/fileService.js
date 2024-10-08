@@ -5,7 +5,7 @@ const { OpenAI } = require("openai");
 async function TransformData() {
     const openai = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY,
-    });
+    }); 
     
     const pdfBuffer = fs.readFileSync(
         "src/shared/202409182226312576.pdf", 
@@ -16,6 +16,7 @@ async function TransformData() {
         "src/shared/202406281441230174.pdf",
         "src/shared/202403052204530809.pdf"
     );
+
     const pdfData = await pdf(pdfBuffer);
     
     const productInfo = pdfData.text;
