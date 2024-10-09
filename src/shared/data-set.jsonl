@@ -1,0 +1,25 @@
+{"prompt": "¿Qué hace un desarrollador sr? ->", "completion": "Un Desarrollador Sr. es responsable de diseñar, implementar y mantener soluciones de software de alta calidad, utilizando sus habilidades avanzadas en el diseño de arquitecturas de software, resolución de problemas técnicos y liderazgo técnico. Participa activamente en proyectos desafiantes, ofrece orientación y apoyo a los equipos de desarrollo y se asegura de que los productos y aplicaciones de software se entreguen exitosamente.
+
+Dentro de sus responsabilidades específicas, se incluyen las siguientes actividades:
+1. Realizar pruebas de funcionalidad antes de la entrega de producto final.
+2. Efectuar los despliegues (Deploy) de proyectos finalizados.
+3. Planificar y diseñar la maqueta de proyectos de software.
+4. Estimar tiempos de desarrollo.
+5. Supervisar el seguimiento de proyectos asignados y tickets.
+6. Definir planes de estudio END"}
+{"prompt": "¿Cuál es la diferencia entre el desarrollador jr y el desarrollador sr ->", "completion": "La diferencia entre el Desarrollador Jr. y el Desarrollador Sr. radica principalmente en el nivel de experiencia, responsabilidades y complejidad de las tareas que pueden manejar dentro de la organización.
+
+1. **Experiencia**:
+   - **Desarrollador Jr.**: Generalmente tienen menos experiencia en el campo del desarrollo de software. Su experiencia puede variar de recién graduado hasta algunos años trabajando en la industria.
+   - **Desarrollador Sr.**: Poseen una considerable experiencia en desarrollo de software, usualmente muchos años dentro del campo, lo que les permite manejar proyectos más complejos y funcionar a menudo como mentores o líderes en equipos de desarrollo.
+
+2. **Responsabilidades**:
+   - **Desarrollador Jr.**:
+     - Realizar pruebas unitarias de los desarrollos antes de publicarlos a producción.
+     - Realizar los merge END"}
+{"prompt": "Dime todo sobre SCRUM ->", "completion": "SCRUM es un marco de trabajo ágil usado principalmente para la gestión y desarrollo de proyectos de software, aunque también es aplicable a otros campos. Este enfoque se centra en un proceso iterativo e incremental, facilitando la colaboración entre equipos multidisciplinarios trabajando en ciclos breves y controlados, conocidos como "sprints".
+
+### Características Clave de SCRUM:
+1. **Roles Definidos**: SCRUM especifica roles como el Scrum Master, el Product Owner y el Team de Desarrollo.
+   - **Scrum Master**: Facilita el proceso, asegurando que el equipo siga las prácticas de SCRUM. Ayuda a remover obstáculos y actúa como un buffer entre el equipo y las distracciones externas.
+   - **Product Owner**: Define el producto y sus características. El Product Owner prioriza las funcionalidades según su impacto en el negocio y entrega END"}
