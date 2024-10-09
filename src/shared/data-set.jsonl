@@ -1,0 +1,33 @@
+{"prompt": "¿Qué hace un desarrollador sr? ->", "completion": "Un desarrollador sr (senior) en el contexto del documento tiene varias responsabilidades clave dentro del departamento de Tecnologías de la Información, que incluyen:
+
+1. **Captura de incidencias**: Registrar y manejar las incidencias que surgen en los sistemas y solucionarlas según sea necesario.
+
+2. **Captura de bonos de indicadores**: Es responsable de capturar y calcular los indicadores utilizando el formato F.TI005, que sirve para evaluar el desempeño de las actividades de desarrollo e infraestructura.
+
+3. **Asegurar cumplimiento de procedimientos**:
+   - **Desarrollo de software (P.TIDS.01)**: Debe garantizar que todos los procesos de desarrollo de software se realicen siguiendo los procedimientos establecidos.
+   - **Soporte técnico (P.TIIN.001-2)**: Es responsable de asegurarse de que el END"}
+{"prompt": "¿Cuál es la diferencia entre el desarrollador jr y el desarrollador sr ->", "completion": "De acuerdo con el texto proporcionado, la diferencia entre las responsabilidades del Desarrollador Jr y Desarrollador Sr se relaciona principalmente con la similaridad en las tareas que deben realizar pero no se especifican diferencias claras en nivel de responsabilidad, supervisión o habilidades requeridas.
+
+Ambos, tanto el Desarrollador Jr como el Desarrollador Sr, tienen asignadas las siguientes responsabilidades:
+
+1. Captura de incidencias.
+2. Captura de bonos de indicadores.
+3. Asegurar cumplimiento de procedimiento de desarrollo de software.
+4. Asegurar cumplimiento de procedimiento de soporte técnico.
+5. Asegurar cumplimiento de actividades asignadas.
+6. Definición de prioridades de actividades y proyectos a realizar.
+
+Sin embargo, es razonable suponer que un Desarrollador Sr poseería más experiencia y habilidades más avanzadas comparado con un END"}
+{"prompt": "¿Qué hace un desarrollador sr? ->", "completion": "Un desarrollador senior, de acuerdo al texto proporcionado, tiene varias responsabilidades vitales dentro de una organización que ejecutan funciones relacionadas con el desarrollo de software, la supervisión técnica y el liderazgo de proyectos. Aquí están algunas de las tareas y responsabilidades clave que se esperan de un desarrollador senior, como se detalla en el procedimiento para el "Desarrollador de software Sr" (PU.TI.002-2):
+
+1. **Realizar pruebas de funcionalidad**: Antes de la entrega final del producto, llevar a cabo pruebas para asegurar que las funcionalidades del software funcionen según los requerimientos especificados.
+
+2. **Realizar los deploys correspondientes**: Responsable de la implementación de las actualizaciones en los sistemas de software a que se refieran los proyectos finalizados.
+
+3. **Planear y maquetar proyectos de software**: Diseñar y plan END"}
+{"prompt": "¿Cuál es la diferencia entre el desarrollador jr y el desarrollador sr ->", "completion": "La diferencia entre un Desarrollador Jr y un Desarrollador Sr se puede identificar claramente en términos de las responsabilidades asignadas a cada puesto, sus roles en los proyectos y el nivel de independencia y liderazgo esperado. De acuerdo con los documentos proporcionados, aquí están algunas de las diferencias:
+
+1. **Nivel de experiencia y toma de decisiones**:
+   - **Desarrollador Jr**: Generalmente tiene menos experiencia y sus responsabilidades incluyen actividades más guiadas bajo la supervisión de desarrolladores más experimentados. Se espera que realicen pruebas unitarias, manejen versiones del proyecto, y sigan procedimientos establecidos sin muchas variaciones.
+   - **Desarrollador Sr**: Posee una experiencia significativa y se espera que lidere partes o la totalidad de proyectos, realice estimaciones de tiempo de desarrollo, lidere la planeación y el diseño END"}

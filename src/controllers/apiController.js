@@ -53,6 +53,13 @@ async function CreateFineTune (req, res){
     res.status(200).send(response)
 }
 
+async function preguntasPersona (req, res){
+    const preguntas = req.body.preguntas;
+    console.log(req.body);
+    const response = await fileService.TransformData(preguntas);
+    res.status(200).send(response);
+}
+
 //#endregion
 module.exports = {
     Test,
@@ -61,5 +68,6 @@ module.exports = {
     ListFiles,
     RetrieveFile,
     DeleteFile,
-    CreateFineTune
+    CreateFineTune,
+    preguntasPersona
 }
