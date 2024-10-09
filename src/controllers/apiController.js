@@ -53,11 +53,16 @@ async function CreateFineTune (req, res){
     res.status(200).send(response)
 }
 
-async function preguntasPersona (req, res){
-    const preguntas = req.body.preguntas;
-    console.log(req.body);
-    const response = await fileService.TransformData(preguntas);
-    res.status(200).send(response);
+async function preguntasPersona(req, res) {
+    try {
+        const preguntas = req.body.preguntas;
+        console.log(req.body); // Para depurar la solicitud
+        const response = await fileService.TransformData(preguntas);
+        res.status(200).send(response);
+    } catch (error) {
+        console.error("Error en preguntasPersona:", error);
+        res.status(500).send("Error al procesar la pregunta.");
+    }
 }
 
 //#endregion
