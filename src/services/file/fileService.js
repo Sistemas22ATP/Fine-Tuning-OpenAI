@@ -6,7 +6,7 @@ const { OpenAI } = require("openai");
 async function TransformData(qaPairs) {
     const openai = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY,
-    }); 
+    });  
 
     const pdfs = [
         "src/shared/202409182226312576.pdf", 
@@ -74,7 +74,7 @@ async function UploadFile() {
 async function ListFiles() {
     const openai = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY,
-    });
+    }); 
 
     const response = await openai.files.list();
     return response; 
