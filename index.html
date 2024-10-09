@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz de Consulta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de PDF</h1>
+        <form id="questionForm">
+            <label for="question">Escribe tu pregunta:</label>
+            <input type="text" id="question" required>
+            <button type="submit">Enviar Pregunta</button>
+        </form>
+        
+        <div id="response" class="response"></div>
+
+        <form id="uploadForm" enctype="multipart/form-data">
+            <label for="fileUpload">Subir archivo JSONL:</label>
+            <input type="file" id="fileUpload" accept=".jsonl" required>
+            <button type="submit">Subir Archivo</button>
+        </form>
+
+        <div id="uploadResponse" class="response"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
