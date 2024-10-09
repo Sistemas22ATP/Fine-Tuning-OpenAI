@@ -14,10 +14,16 @@ document.getElementById('questionForm').addEventListener('submit', async functio
             body: JSON.stringify({ preguntas: [question] }),
         });
 
+        // Verifica si la respuesta fue exitosa
+        if (!res.ok) {
+            const errorText = await res.text();
+            throw new Error(`HTTP error! Status: ${res.status} - ${errorText}`);
+        }
+
         const data = await res.json();
-        responseDiv.innerText = data[0] || 'No se obtuvo respuesta.';
+        responseDiv.innerText = data || 'No se obtuvo respuesta.';
     } catch (error) {
-        console.error(error);
-        responseDiv.innerText = 'Error al enviar la pregunta.';
+        console.error("Error al enviar la pregunta:", error);
+        responseDiv.innerText = 'Error al enviar la pregunta: ' + error.message;
     }
 });

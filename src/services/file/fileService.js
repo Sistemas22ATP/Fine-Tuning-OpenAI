@@ -2,6 +2,7 @@ const fs = require("fs");
 const fs2 = require("fs").promises
 const pdf = require("pdf-parse");
 const { OpenAI } = require("openai");
+const { preguntasPersona } = require("../../controllers/apiController");
 
 async function TransformData(qaPairs) {
     const openai = new OpenAI({
@@ -111,5 +112,6 @@ module.exports = {
     UploadFile,
     ListFiles,
     RetrieveFile,
-    DeleteFile
+    DeleteFile,
+    preguntasPersona
 }

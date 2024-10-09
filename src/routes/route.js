@@ -10,6 +10,6 @@ router
 .get("/retrieve-files", apiController.RetrieveFile)
 .delete("/delete-file", apiController.DeleteFile)
 .post("/create-fine-tune", apiController.CreateFineTune)
-.post("/preguntas-persona", apiController.preguntasPersona)
+router.post("/preguntas-persona", apiController.preguntasPersona);
 
 module.exports = router;
