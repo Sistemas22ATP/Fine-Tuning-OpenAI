@@ -27,7 +27,7 @@ async function TransformData(qaPairs) {
 
     console.log(contenidos);
 
-    let respuestas = []
+    let respuestas = [] 
     
     for (const question of qaPairs) {
         const answer = await getAnswerFromOpenAI(openai, question, contenidos);
