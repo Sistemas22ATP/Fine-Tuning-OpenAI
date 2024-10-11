@@ -16,6 +16,14 @@ app.post('/api/ask', async (req, res) => {
     }
 
     try {
-        const respuesta = await TransformData([question]); 
+        const respuesta = await TransformData([question]);
+        res.json({ answer: respuesta[0] })
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ answer: "Error al procesar la pregunta." }); 
     }
+});
+
+app.listen(PORT, () => {
+    console.log('Servidor escuchando ')
 })
