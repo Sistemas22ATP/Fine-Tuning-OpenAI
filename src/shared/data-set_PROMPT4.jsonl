@@ -1,0 +1,33 @@
+{"prompt": "¿Qué hace un desarrollador sr? ->", "completion": "Un Desarrollador Sr (Desarrollador Senior) posee una serie de responsabilidades importantes dentro de la estructura de la empresa, que incluyen diversas actividades relacionadas con el desarrollo, manejo y mantenimiento de software. Aquí se detallan algunas de sus principales funciones y responsabilidades:
+
+1. **Realizar pruebas de funcionalidad antes de la entrega de producto final**: El Desarrollador Sr debe asegurarse de que todas las funcionalidades del software funcionen correctamente antes de que se considere concluido el desarrollo y esté listo para ser entregado o desplegado.
+
+2. **Realizar los Deploy correspondientes a proyectos finalizados**: Es responsable de la implementación o despliegue de los sistemas o aplicaciones desarrolladas en el entorno de producción.
+
+3. **Realizar planeación y maquetado de proyectos de software**: Establece el diseño y estructura de los proyectos de software END"}
+{"prompt": "¿Cuál es la diferencia entre el desarrollador jr y el desarrollador sr ->", "completion": "Basado en la información provista en los documentos, la diferencia entre el Desarrollador Jr y el Desarrollador Sr dentro de la organización se refleja principalmente en los niveles de responsabilidad, experiencia y la complejidad de las tareas asignadas.
+
+**Responsabilidades del Desarrollador Sr:**
+1. Supervisión de la captura de incidencias y la captura de bonos de indicadores.
+2. Asegurar el cumplimiento de procedimientos de desarrollo de software y soporte técnico.
+3. Definir prioridades de proyectos y supervisar actividades asignadas.
+4. Involucrarse en la planificación y maquetado de proyectos de software, realizando estimaciones de tiempo y realizando los Deploy correspondientes a proyectos finalizados.
+
+**Responsabilidades del Desarrollador Jr:**
+1. Captura de incidencias y bonos de indicadores.
+2. Asegurar el END"}
+{"prompt": "Dime todo sobre SCRUM ->", "completion": "SCRUM es un marco de trabajo ágil utilizado principalmente en el desarrollo de software, aunque también puede ser aplicable a otros campos o proyectos que requieren gestión de equipo y producción iterativa. Scrum se enfoca en utilizar un proceso de desarrollo iterativo y incremental para maximizar el rendimiento del equipo y la calidad del producto final. Aquí están algunos detalles clave sobre SCRUM según la información contenida en el documento:
+
+1. **Definición de SCRUM**: 
+   SCRUM es un marco de trabajo ágil que se basa en un enfoque colaborativo e iterativo. Los equipos se organizan en ciclos de trabajo llamados "sprints".
+
+2. **Sprints**:
+   Un sprint es un período breve de tiempo fijo (normalmente entre dos semanas a un mes), durante el cual el equipo trabaja para completar una cantidad establecida de trabajo. Los sprints son fundamentales en la metodología Scrum END"}
+{"prompt": "¿Qué es Avance y Tecnología en Plásticos? ->", "completion": "Avance y Tecnología en Plásticos es una empresa mencionada en los textos proporcionados, y parece estar involucrada en el uso de tecnologías de la información y actividades empresariales relacionadas con el desarrollo de software, la capacitación y la gestión de sus operaciones mediante sistemas avanzados como Dynamics 365 F&O. Además, manejan plataformas de e-commerce y tienen un departamento activo de TI dedicado al desarrollo y mantenimiento de software. END"}
+{"prompt": "¿Qué hace un desarrollador de power BI? ->", "completion": "Un Desarrollador de Power BI, según el documento proporcionado, tiene varias responsabilidades clave que son esenciales para ayudar a la empresa a convertir datos en información coherente, interactiva y visualmente atractiva que apoye la toma de decisiones y el avance de los objetivos empresariales. Aquí se detallan algunas de sus principales funciones y actividades:
+
+1. **Análisis de datos**: Comprender los requisitos de informes y paneles para asegurar que los resultados sean alineados con las necesidades del negocio.
+
+2. **Desarrollo de informes y paneles**: Diseñar y crear informes interactivos y paneles de control utilizando Power BI, lo cual implica la selección de la mejor forma de presentar los datos para facilitar su entendimiento.
+
+3. **Integración de datos**: Realizar la extracción de datos de diversas fuentes END"}
