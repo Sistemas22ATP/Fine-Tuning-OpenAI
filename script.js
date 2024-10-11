@@ -25,6 +25,6 @@ document.getElementById("submit").addEventListener("click", async () => {
     } catch (error) {
         responseDiv.innerText = "Error al obtener respuesta."; 
         console.error(error);
-    }
+    } 
 
 }); 
