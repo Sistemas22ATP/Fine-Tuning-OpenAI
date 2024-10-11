@@ -21,8 +21,10 @@ document.getElementById("submit").addEventListener("click", async () => {
         });
 
         const data = await response.json(); 
+        responseDiv.innerText = data.asnwers || "Respuesta no disponible."; 
+    } catch (error) {
+        responseDiv.innerText = "Error al obtener respuesta."; 
+        console.error(error);
+    }
 
-        
-    } 
-
-})  
+}); 
