@@ -10,7 +10,7 @@ document.getElementById("submit").addEventListener("click", async () => {
     responseDiv.inner = "Cargando..."; 
 
     try {
-        const response = await fetch('/api/ask', {
+        const response = await fetch('http://localhost:3000/api/ask', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json', 
