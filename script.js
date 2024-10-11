@@ -7,12 +7,12 @@ document.getElementById("submit").addEventListener("click", async () => {
     if (!prompt) {
         responseDiv.innerText = "Por favor, escribe una pregunta.";
         return;
-    }
+    } 
 
     responseDiv.inner = "Cargando..."; 
 
     try {
-        const response = await fetch('/api/ask')
+        const response = await fetch('/api/ask', )
     }
 
-})
+}) 
