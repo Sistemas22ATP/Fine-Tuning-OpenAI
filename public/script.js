@@ -1,5 +1,3 @@
-const { response } = require("express");
-
 document.getElementById("submit").addEventListener("click", async () => {
     const prompt = document.getElementById("prompt").value; 
     const responseDiv = document.getElementById("response"); 
