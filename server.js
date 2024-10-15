@@ -1,4 +1,4 @@
-const express = require('express');
+const Express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors'); 
 const { TransformData } = require('./src/shared/'); 
@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors()); 
 app.use(bodyParser.json());
-app.use(express.static('public'));
+app.use(Express.static('public'));
 
 app.post('/api/ask', async (req, res) => {
     const { question } = req.body;
