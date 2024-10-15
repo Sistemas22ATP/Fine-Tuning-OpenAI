@@ -10,16 +10,18 @@ document.getElementById("submit").addEventListener("click", async () => {
     responseDiv.inner = "Cargando..."; 
 
     try {
-        const response = await fetch('http://localhost:3000/api/ask', {
+        const response = await fetch('http://localhost:3000/api/preguntas-persona', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json', 
             }, 
-            body: JSON.stringify({ question: prompt }),
+            body: JSON.stringify({ preguntas: [prompt] }),
         });
 
         const data = await response.json(); 
-        responseDiv.innerText = data.answers || "Respuesta no disponible."; 
+        console.log("El valor dela data: ", data)
+        console.log("El data.completion: ", data.completion)
+        responseDiv.innerText = data.completion || "Respuesta no disponible."; 
     } catch (error) {
         responseDiv.innerText = "Error al obtener respuesta."; 
         console.error(error);

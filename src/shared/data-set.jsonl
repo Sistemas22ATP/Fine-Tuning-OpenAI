@@ -1,30 +1,62 @@
-{"prompt": "¿Qué hace un desarrollador sr? ->", "completion": "Un Desarrollador Sr es responsable de utilizar su amplia experiencia y conocimientos en el desarrollo de software para diseñar, implementar y mantener soluciones de software de alta calidad. Este profesional posee habilidades sólidas en el diseño de arquitecturas de software, la resolución de problemas técnicos y el liderazgo técnico. Su objetivo principal es liderar y contribuir en proyectos desafiantes, ofrecer orientación y apoyo al equipo de desarrollo, y garantizar la entrega exitosa de productos y aplicaciones de software. END"}
-{"prompt": "¿Cuál es la diferencia entre el desarrollador jr y el desarrollador sr ->", "completion": "En los textos presentados, la diferencia entre un Desarrollador Jr. y un Desarrollador Sr. se define principalmente por sus niveles de responsabilidad, habilidades y las actividades específicas asignadas a cada rol dentro de la organización. A continuación, se detallan las diferencias basadas en los documentos proporcionados:
+{"prompt": "diferencia entre jr y sr ->", "completion": "En el contexto del texto proporcionado, la diferencia principal entre un Desarrollador Jr (Junior) y un Desarrollador Sr (Senior) en términos de responsabilidades parece centrarse en la complejidad y el liderazgo de las tareas asignadas.
 
-**1. Responsabilidades y habilidades:**
-   - **Desarrollador Jr:**
-     - Realizar pruebas unitarias de los desarrollos antes de publicarlos a producción.
-     - Realizar los merge de cambios en código con la rama principal antes de subir a producción.
-     - Administrar versiones de proyecto dentro de repositorios de proyectos.
-     - Se espera que cumpla con procedimientos estándares y siga las directrices establecidas por senior o coordinadores.
+1. **Responsabilidades del Desarrollador Jr:**
+   - Están orientadas a tareas más ejecutivas o de apoyo dentro del proceso de desarrollo.
+   - Incluyen realizar pruebas unitarias y manejar cambios de código antes de publicar a producción.
+   - Tienen la responsabilidad de administrar versiones de proyecto dentro de repositorios de proyectos.
+
+2. **Responsabilidades del Desarrollador Sr:**
+   - Involucran un nivel más alto de toma de decisiones y responsabilidades estratégicas en el proyecto.
+   - Deben realizar pruebas de funcionalidad antes de la entrega de producto final END"}
+{"prompt": "diferencia entre sr y jr ->", "completion": "La diferencia entre un "Sr" (Senior) y un "Jr" (Junior) en un contexto laboral generalmente se refiere al nivel de experiencia, conocimiento y responsabilidad que tiene cada uno dentro de una organización o en un equipo de trabajo.
+
+1. **Experiencia**: 
+   - **Senior (Sr)**: Tiene una considerable cantidad de experiencia en su campo. Esto generalmente implica haber trabajado varios años (a menudo más de 5 a 10 años) en la industria o en roles específicos, lo que le permite tener un amplio conocimiento práctico y teórico.
+   - **Junior (Jr)**: Tiene menos experiencia y está en las primeras etapas de su carrera profesional. Sus conocimientos se basan más en la teoría aprendida en la educación formal o en entrenamientos recientes, con menos experiencia práctica comparada con un senior.
+
+2. **Respons END"}
+{"prompt": "diferencia entre sr y jr ->", "completion": "En el contexto del texto proporcionado, las diferencias entre un Desarrollador Sr (Senior) y un Desarrollador Jr (Junior) generalmente se refieren a los niveles de experiencia, responsabilidades y competencias dentro de un equipo de tecnología de la información, específicamente en roles de desarrollo de software y otras actividades relacionadas con TI. Aquí está el desglose de las diferencias basadas en el texto:
+
+1. **Experiencia y Conocimiento:**
+   - **Desarrollador Sr:** Se espera que tenga una experiencia y conocimiento considerable en su área de especialización. Es capaz de liderar proyectos, diseñar arquitecturas de software, resolver problemas técnicos complejos y ofrecer soporte y orientación a otros miembros del equipo.
+   - **Desarrollador Jr:** Generalmente tiene menos experiencia y conocimiento. Su rol es aprender y crecer en competencia bajo la superv END"}
+{"prompt": "¿Qué hace un desarrollador sr? ->", "completion": "Un desarrollador senior, según lo detallado en el documento proporcionado, se encarga de diversas actividades relacionadas con el desarrollo, gestión y mantenimiento de software. Entre las principales responsabilidades y actividades asignadas a un desarrollador sr se incluyen:
+
+1. **Realizar pruebas de funcionalidad**: Antes de la entrega de un producto final, el desarrollador sr debe asegurarse de que todas las funciones del software funcionen adecuadamente.
+
+2. **Realizar los Deploy correspondientes a proyectos finalizados**: Después de finalizar el desarrollo y las pruebas, el desarrollador senior es responsable de la implementación o despliegue de los proyectos en los sistemas de producción.
+
+3. **Realizar planeación y maquetado de proyectos de software**: Planifica y organiza cómo se desarrollará el software, incluyendo la arquitectura y el diseño inicial.
+
+4. **Realizar estimaciones de tiempo de desarrollo END"}
+{"prompt": "¿Cuál es la diferencia entre el desarrollador jr y el desarrollador sr ->", "completion": "La diferencia entre un Desarrollador Jr. y un Desarrollador Sr. radica principalmente en los niveles de experiencia, responsabilidades y habilidades requeridas para cada posición. Aquí está un resumen de las diferencias basadas en el documento proporcionado:
+
+### Desarrollador Jr.
+
+1. **Responsabilidades de Desarrollador Jr:**
+   - Captura de incidencias.
+   - Captura de bonos de indicadores usando el Formato de cálculo de indicadores F.TI005.
+   - Cumplimiento de procedimientos como el desarrollo de software P.TIDS.01 y soporte técnico P.TIIN.001-2.
+   - Asegurar el cumplimiento de actividades asignadas.
+   - Definición de prioridades de actividades y proyectos a realizar.
+
+2. **Experiencia y Habilidades:**
+   - Menos experiencia en comparación con el Desarrollador Sr END"}
+{"prompt": "Dime todo sobre SCRUM ->", "completion": "SCRUM es un marco de trabajo ágil que se utiliza en la gestión y desarrollo de software y otros proyectos. Este enfoque se centra en un proceso colaborativo e iterativo para lograr resultados eficientes y flexibles. Aquí están algunos puntos clave sobre SCRUM:
+
+1. **Estructura de Roles:**
+   - **Scrum Master:** Responsable de facilitar el proceso SCRUM. Asegura que el equipo siga las prácticas de Scrum correctamente. No es un líder de equipo tradicional, sino un facilitador y protector del equipo de obstáculos.
+   - **Product Owner (Dueño del Producto):** Es quien conoce el producto y lo que necesita para entregar valor al negocio. Se encarga de mantener y priorizar la lista de trabajos, conocida como Product Backlog.
+   - **Equipo de Desarrollo:** Un grupo de profesionales que trabajan juntos para entregar END"}
+{"prompt": "¿Qué es Avance y Tecnología en Plásticos? ->", "completion": "Avance y Tecnología en Plásticos es una empresa mencionada en el texto que parece estar enfocada en tecnologías de la información y otras áreas operativas relacionadas con el manejo de datos y procesos empresariales. La empresa utiliza sistemas como Dynamics 365 F&O para la gestión empresarial y herramientas como Power BI para análisis de datos y reportes. Además, cuentan con un departamento de TI y diversos roles dentro de la empresa, como Gerente de TI, Desarrollador de Software Senior, y Desarrollador de Power BI, indicando un enfoque significativo en tecnología y desarrollo de software. La empresa también está involucrada en actividades de e-commerce, como se menciona en el procedimiento para el alta de nuevos productos en su plataforma de ventas en línea. END"}
+{"prompt": "¿Qué hace un desarrollador de power BI? ->", "completion": "Un Desarrollador de Power BI dentro de la empresa es responsable de varias actividades cruciales para convertir datos sin relación en información coherente y visualmente atractiva, ayudando a respaldar los objetivos empresariales. Sus responsabilidades incluyen:
+
+1. **Análisis de Datos**: Comprender los requisitos para informes y paneles a partir de datos disponibles.
    
-   - **Desarrollador Sr:**
-     - Liderazgo técnico END"}
-{"prompt": "Dime todo sobre SCRUM ->", "completion": "SCRUM es un marco de trabajo ágil utilizado en el desarrollo de software y en la gestión de otros tipos de proyectos. Se caracteriza por su enfoque iterativo e incremental, centrado en la colaboración del equipo y la entrega rápida de productos de alta calidad. A continuación, se detallan algunas características clave de SCRUM:
+2. **Desarrollo y Diseño**: Crear informes interactivos y paneles de control utilizando la herramienta Power BI.
 
-1. **Iterativo e Incremental**: SCRUM divide el desarrollo del proyecto en ciclos cortos de trabajo, conocidos como sprints, que suelen durar entre dos y cuatro semanas. Cada sprint es un ciclo completo de planificación, ejecución, revisión y reflexión, que permite al equipo adaptarse y hacer cambios rápidamente.
+3. **Integración de Datos**: Juntar datos de diversas fuentes para formar conjuntos de datos coherentes y confiables, asegurando su correcta transformación y carga.
 
-2. **Roles Clave**:
-   - **Scrum Master**: Es el facilitador del equipo, responsable de asegurar que el equipo siga la metodología SCRUM correctamente, ayudando a resolver los obstáculos que puedan impedir el END"}
-{"prompt": "¿Qué es Avance y Tecnología en Plásticos? ->", "completion": "Avance y Tecnología en Plásticos es una empresa mencionada en el texto que parece estar involucrada en diversas operaciones relacionadas con tecnologías y la gestión de información del área de Tecnologías de Información (TI). Esta empresa utiliza múltiples plataformas y sistemas de gestión, como Dynamics 365 F&O, Jira y Power BI, para sus operaciones internas. Además, implementa procedimientos para el desarrollo de software, la gestión de proyectos y la incorporación de nuevos productos en una plataforma de comercio electrónico (E-commerce). END"}
-{"prompt": "¿Qué hace un desarrollador de power BI? ->", "completion": "Un desarrollador de Power BI en la empresa se encarga de las siguientes responsabilidades y actividades principales:
+4. **Optimización de la Información**: Identificar y resolver problemas de rendimiento en los informes y paneles, y optimizar consultas y modelos de datos periódicamente.
 
-1. **Análisis de Datos**: Comprender los requisitos de informes y paneles para analizar datos efectivamente.
-
-2. **Desarrollo y Diseño**: Crear informes interactivos y paneles de control utilizando Power BI, asegurando que sean visualmente atractivos y funcionalmente efectivos.
-
-3. **Integración de Datos**: Realizar la integración de datos de diversas fuentes para crear conjuntos de datos coherentes y confiables. Esto incluye extraer datos de sistemas como Dynamics 365 F&O y otras bases de datos.
-
-4. **Optimización de Rendimiento**: Identificar y resolver problemas de rendimiento en los informes y paneles de control de Power BI.
-
-5. **Automatización de Procesos**: Utilizar herramientas como PHP y Power Autom END"}
+5. ** END"}

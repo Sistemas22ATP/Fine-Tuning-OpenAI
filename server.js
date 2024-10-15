@@ -2,13 +2,35 @@ const Express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors'); 
 const { TransformData } = require('./src/shared/');
+const { createProxyMiddleware } = require('http-proxy-middleware');
 
-const app = express(); 
+const app = Express(); 
 const PORT = process.env.PORT || 3000;
 
-app.use(cors()); 
+const apiProxy = createProxyMiddleware({
+    target: 'http://localhost:3000',
+    changeOrigin: true,
+    // pathRewrite: {
+    //   '^/api': '/api/v1'
+    // },
+    // onProxyReq: function(proxyReq, req, res) {
+    //   proxyReq.setHeader('Authorization', `Bearer ${req.headers.authorization}`);
+    // },
+    onProxyRes: function(proxyRes, req, res) {
+      proxyRes.headers['Access-Control-Allow-Origin'] = '*';
+    }
+  });
+  
+  app.use('/api', apiProxy);
+
+/*var corsOptions = {
+    origin: ["http://127.0.0.1:5500"],
+};
+*/
+/*
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
-app.use(Express.static('public'));
+app.use(Express.static('public'));*/
 
 app.post('/api/ask', async (req, res) => {
     const { question } = req.body;
