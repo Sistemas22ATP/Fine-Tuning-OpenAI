@@ -1,0 +1,30 @@
+{"prompt": "¿Qué hace un desarrollador sr? ->", "completion": "Un Desarrollador Sr es responsable de utilizar su amplia experiencia y conocimientos en el desarrollo de software para diseñar, implementar y mantener soluciones de software de alta calidad. Este profesional posee habilidades sólidas en el diseño de arquitecturas de software, la resolución de problemas técnicos y el liderazgo técnico. Su objetivo principal es liderar y contribuir en proyectos desafiantes, ofrecer orientación y apoyo al equipo de desarrollo, y garantizar la entrega exitosa de productos y aplicaciones de software. END"}
+{"prompt": "¿Cuál es la diferencia entre el desarrollador jr y el desarrollador sr ->", "completion": "En los textos presentados, la diferencia entre un Desarrollador Jr. y un Desarrollador Sr. se define principalmente por sus niveles de responsabilidad, habilidades y las actividades específicas asignadas a cada rol dentro de la organización. A continuación, se detallan las diferencias basadas en los documentos proporcionados:
+
+**1. Responsabilidades y habilidades:**
+   - **Desarrollador Jr:**
+     - Realizar pruebas unitarias de los desarrollos antes de publicarlos a producción.
+     - Realizar los merge de cambios en código con la rama principal antes de subir a producción.
+     - Administrar versiones de proyecto dentro de repositorios de proyectos.
+     - Se espera que cumpla con procedimientos estándares y siga las directrices establecidas por senior o coordinadores.
+   
+   - **Desarrollador Sr:**
+     - Liderazgo técnico END"}
+{"prompt": "Dime todo sobre SCRUM ->", "completion": "SCRUM es un marco de trabajo ágil utilizado en el desarrollo de software y en la gestión de otros tipos de proyectos. Se caracteriza por su enfoque iterativo e incremental, centrado en la colaboración del equipo y la entrega rápida de productos de alta calidad. A continuación, se detallan algunas características clave de SCRUM:
+
+1. **Iterativo e Incremental**: SCRUM divide el desarrollo del proyecto en ciclos cortos de trabajo, conocidos como sprints, que suelen durar entre dos y cuatro semanas. Cada sprint es un ciclo completo de planificación, ejecución, revisión y reflexión, que permite al equipo adaptarse y hacer cambios rápidamente.
+
+2. **Roles Clave**:
+   - **Scrum Master**: Es el facilitador del equipo, responsable de asegurar que el equipo siga la metodología SCRUM correctamente, ayudando a resolver los obstáculos que puedan impedir el END"}
+{"prompt": "¿Qué es Avance y Tecnología en Plásticos? ->", "completion": "Avance y Tecnología en Plásticos es una empresa mencionada en el texto que parece estar involucrada en diversas operaciones relacionadas con tecnologías y la gestión de información del área de Tecnologías de Información (TI). Esta empresa utiliza múltiples plataformas y sistemas de gestión, como Dynamics 365 F&O, Jira y Power BI, para sus operaciones internas. Además, implementa procedimientos para el desarrollo de software, la gestión de proyectos y la incorporación de nuevos productos en una plataforma de comercio electrónico (E-commerce). END"}
+{"prompt": "¿Qué hace un desarrollador de power BI? ->", "completion": "Un desarrollador de Power BI en la empresa se encarga de las siguientes responsabilidades y actividades principales:
+
+1. **Análisis de Datos**: Comprender los requisitos de informes y paneles para analizar datos efectivamente.
+
+2. **Desarrollo y Diseño**: Crear informes interactivos y paneles de control utilizando Power BI, asegurando que sean visualmente atractivos y funcionalmente efectivos.
+
+3. **Integración de Datos**: Realizar la integración de datos de diversas fuentes para crear conjuntos de datos coherentes y confiables. Esto incluye extraer datos de sistemas como Dynamics 365 F&O y otras bases de datos.
+
+4. **Optimización de Rendimiento**: Identificar y resolver problemas de rendimiento en los informes y paneles de control de Power BI.
+
+5. **Automatización de Procesos**: Utilizar herramientas como PHP y Power Autom END"}
