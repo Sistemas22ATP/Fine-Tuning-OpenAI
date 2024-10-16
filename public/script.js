@@ -7,7 +7,7 @@ document.getElementById("submit").addEventListener("click", async () => {
         return;
     } 
 
-    responseDiv.inner = "Cargando..."; 
+    responseDiv.innerText = "Cargando..."; 
 
     try {
         const response = await fetch('http://localhost:3000/api/preguntas-persona', {
