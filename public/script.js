@@ -19,7 +19,7 @@ document.getElementById("submit").addEventListener("click", async () => {
         });
 
         const data = await response.json(); 
-        console.log("El valor dela data: ", data)
+        console.log("El valor de la data: ", data)
         console.log("El data.completion: ", data.completion)
         responseDiv.innerText = data.completion || "Respuesta no disponible."; 
     } catch (error) {
