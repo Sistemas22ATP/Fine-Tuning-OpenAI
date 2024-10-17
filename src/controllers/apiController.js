@@ -58,7 +58,7 @@ async function preguntasPersona(req, res) {
         const preguntas = req.body.preguntas;
         console.log(req.body); // Para depurar la solicitud
         const response = await fileService.TransformData(preguntas);
-        res.status(200).send(response);
+        res.status(200).json(response);
     } catch (error) {
         console.error("Error en preguntasPersona:", error);
         res.status(500).send("Error al procesar la pregunta.");

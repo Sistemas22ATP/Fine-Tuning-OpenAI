@@ -1,3 +1,5 @@
+//const { error } = require('pdf-lib');
+
 document.getElementById("submit").addEventListener("click", async () => {
     const prompt = document.getElementById("prompt").value; 
     const responseDiv = document.getElementById("response"); 
@@ -9,22 +11,27 @@ document.getElementById("submit").addEventListener("click", async () => {
 
     responseDiv.innerText = "Cargando..."; 
 
+
     try {
-        const response = await fetch('http://localhost:3000/api/preguntas-persona', {
-            method: 'POST',
+        // Make a POST request using axios
+        const response = await axios.post('http://localhost:3000/api/preguntas-persona', {
+            preguntas: [prompt]
+        }, {
             headers: {
-                'Content-Type': 'application/json', 
-            }, 
-            body: JSON.stringify({ preguntas: [prompt] }),
+                'Content-Type': 'application/json'
+            }
         });
 
-        const data = await response.json(); 
-        console.log("El valor de la data: ", data)
-        console.log("El data.completion: ", data.completion)
-        responseDiv.innerText = data.completion || "Respuesta no disponible."; 
-    } catch (error) {
-        responseDiv.innerText = "Error al obtener respuesta."; 
-        console.error(error);
-    } 
+        // Parse and display the response data
+        const data = response.data; // axios automatically parses JSON for you
+        console.log("El valor de la data: ", data);
+        responseDiv.innerText = data[0].completion || "Respuesta no disponible."; 
 
-}); 
+    } catch (error) {
+        // Handle errors from axios
+        responseDiv.innerText = "Error al obtener respuesta.";
+        console.error("Axios Error:", error.response || error.message);
+    }
+
+    
+});

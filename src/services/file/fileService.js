@@ -31,10 +31,11 @@ async function TransformData(qaPairs) {
     
     for (const question of qaPairs) {
         const answer = await getAnswerFromOpenAI(openai, question, contenidos);
-        const object = `{"prompt": "${question} ->", "completion": "${answer} END"}`;
+        const object = {prompt: question , completion: answer};
         respuestas.push(object);
-        fs.appendFileSync("src/shared/data-set.jsonl", object + "\r\n", "utf8");
     }
+
+    fs.appendFileSync("src/shared/data-set.jsonl", JSON.stringify(respuestas) + "\r\n", "utf8");
 
     return respuestas
 }
