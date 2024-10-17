@@ -14,6 +14,6 @@ app.use(express.json());
 app.use("/api", apiRoute);
 
 app.get("/", (req, res)=>{
-    res.json({a: "hola"});
+    res.json({prompt: "response"});
 })
 app.listen(PORT, () => {console.log("EL PUERTO ES: " + PORT)}) 

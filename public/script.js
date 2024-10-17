@@ -10,7 +10,8 @@ document.getElementById("submit").addEventListener("click", async () => {
     responseDiv.innerText = "Cargando..."; 
 
     try {
-        const response = await fetch('http://localhost:3000/api/preguntas-persona', {
+        console.log("entre al try")
+        const response = await fetch ('http://localhost:3000/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json', 
@@ -18,13 +19,21 @@ document.getElementById("submit").addEventListener("click", async () => {
             body: JSON.stringify({ preguntas: [prompt] }),
         });
 
+        console.log("el valor del response.status", response.status);
+
         const data = await response.json(); 
-        console.log("El valor de la data: ", data)
-        console.log("El data.completion: ", data.completion)
-        responseDiv.innerText = data.completion || "Respuesta no disponible."; 
+        console.log("El valor de la data: ", data);
+
+        if (data && data.completion) {
+            responseDiv.innerText = data.completion;
+        } else {
+            responseDiv.innerText = "Respuesta no disponible.";
+            console.error("Estructura de repuesta inesperada: ", data); 
+        }
+        
     } catch (error) {
         responseDiv.innerText = "Error al obtener respuesta."; 
-        console.error(error);
+        console.error("Error en la solicitud; ", error);
     } 
 
-}); 
+});

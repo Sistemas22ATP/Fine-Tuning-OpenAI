@@ -12,4 +12,14 @@ router
 .post("/create-fine-tune", apiController.CreateFineTune)
 .post("/preguntas-persona", apiController.preguntasPersona)
 
+router.post('/preguntas-persona', (req, res) => {
+    const { preguntas } = req.body;
+    if (!preguntas || preguntas.length === 0) {
+        return res.status(400).json({ error: 'No se proporcionaron preguntas.' });
+    }
+
+    const respuesta = { completion: `Respuesta a: ${preguntas}` };
+    res.json(respuesta);
+});
+
 module.exports = router;
