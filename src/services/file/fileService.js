@@ -3,6 +3,7 @@ const fs2 = require("fs").promises
 const pdf = require("pdf-parse");
 const { OpenAI } = require("openai");
 
+
 async function TransformData(qaPairs) {
     const openai = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY,
@@ -31,11 +32,10 @@ async function TransformData(qaPairs) {
     
     for (const question of qaPairs) {
         const answer = await getAnswerFromOpenAI(openai, question, contenidos);
-        const object = {prompt: question , completion: answer};
+        const object = `{"prompt": "${question} ->", "completion": "${answer} END"}`;
         respuestas.push(object);
+        fs.appendFileSync("src/shared/data-set.jsonl", object + "\r\n", "utf8");
     }
-
-    fs.appendFileSync("src/shared/data-set.jsonl", JSON.stringify(respuestas) + "\r\n", "utf8");
 
     return respuestas
 }

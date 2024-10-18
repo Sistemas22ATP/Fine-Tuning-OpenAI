@@ -1,27 +1,28 @@
 require("dotenv").config();
-const cors = require("cors")
-
+const apiRoute = require("./routes/route");
+const cors = require("cors");
 const express = require("express");
-const apiRoute = require("./src/routes/route");
-const path = require('path');
-
-
-
+const path = require('path'); 
 const app = express();
-const PORT = process.env.PORT || 3000; 
+const port = 3000;
 
-app.use(cors())
-app.use(express.json());
 app.use("/api", apiRoute);
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(cors());
 
-/*
-app.get("/", (req, res)=>{
-    res.json({a: "hola"});
-})
-*/
+app.use(express.static(path.join(__dirname, '../public')));
 
+app.use(express.json());
 
+app.post('/api/preguntas-persona', (req, res) => {
+    const { preguntas } = req.body; 
+    if (preguntas && preguntas.lenght > 0) {
+        res.json ({completion: "Esta es la respuesta a tu pregunta: " + preguntas[0]});
+    } else {
+        res.status(400).json({error: "No se proporcionó ninuna pregunta."}); 
+    }
+});
 
-app.listen(PORT, () => {console.log("EL PUERTO ES: " + PORT)}) 
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
