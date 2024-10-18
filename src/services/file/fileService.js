@@ -3,6 +3,7 @@ const fs2 = require("fs").promises
 const pdf = require("pdf-parse");
 const { OpenAI } = require("openai");
 
+
 async function TransformData(qaPairs) {
     const openai = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY,
